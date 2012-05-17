@@ -1,0 +1,42 @@
+                                                                
+version 2
+run CircleMobility-0-20120517-01:17:04-8820
+attr configname CircleMobility
+attr datetime 20120517-01:17:04
+attr experiment CircleMobility
+attr inifile C:/Users/Dexter/Downloads/inetmanet/examples/adhoc/mobility/omnetpp.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=0
+attr measurement ""
+attr network MobileNet
+attr processid 8820
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+
+vector 5  MobileNet.host[0].wlan.mac  RadioState  ETV
+attr enum  "IDLE=0, RECV=1, SLEEP=3, TRANSMIT=2"
+attr enumname  RadioState
+vector 4  MobileNet.host[0].wlan.mac  State  ETV
+attr enum  "BACKOFF=3, DEFER=1, IDLE=0, RECEIVE=8, WAITACK=4, WAITBROADCAST=5, WAITCTS=6, WAITDIFS=2, WAITSIFS=7"
+attr enumname  Ieee80211Mac
+vector 12  MobileNet.host[1].wlan.mac  RadioState  ETV
+attr enum  "IDLE=0, RECV=1, SLEEP=3, TRANSMIT=2"
+attr enumname  RadioState
+vector 11  MobileNet.host[1].wlan.mac  State  ETV
+attr enum  "BACKOFF=3, DEFER=1, IDLE=0, RECEIVE=8, WAITACK=4, WAITBROADCAST=5, WAITCTS=6, WAITDIFS=2, WAITSIFS=7"
+attr enumname  Ieee80211Mac
+vector 19  MobileNet.host[2].wlan.mac  RadioState  ETV
+attr enum  "IDLE=0, RECV=1, SLEEP=3, TRANSMIT=2"
+attr enumname  RadioState
+vector 18  MobileNet.host[2].wlan.mac  State  ETV
+attr enum  "BACKOFF=3, DEFER=1, IDLE=0, RECEIVE=8, WAITACK=4, WAITBROADCAST=5, WAITCTS=6, WAITDIFS=2, WAITSIFS=7"
+attr enumname  Ieee80211Mac
+5	1445 18 0 0 0 0 2 0 0 0 0
+4	1463 18 0 0 0 0 2 0 0 0 0
+12	1481 20 0 0 0 0 2 0 0 0 0
+11	1501 20 0 0 0 0 2 0 0 0 0
+19	1521 20 0 0 0 0 2 0 0 0 0
+18	1541 20 0 0 0 0 2 0 0 0 0

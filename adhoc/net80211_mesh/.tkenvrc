@@ -1,0 +1,6 @@
+# Partial Tkenv config file -- see $HOME/.tkenvrc as well
+inspector "Net80211_mesh" "Net80211_mesh" "2" "1280x658+-8+-8"
+inspector "Net80211_mesh.host[1]" "MobileManetRoutingMesh" "2" "565x515+640+89"
+inspector "Net80211_mesh.host[1].networkLayer" "NetworkLayerGlobalArp" "2" "565x376+125+125"
+inspector "simulation.scheduled-events.wlan-ack" "AirFrameExtended" "1" "460x312+50+50"
+

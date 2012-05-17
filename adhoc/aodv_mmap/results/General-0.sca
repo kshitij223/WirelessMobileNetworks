@@ -1,0 +1,445 @@
+version 2
+run General-0-20120517-15:46:08-3348
+attr configname General
+attr datetime 20120517-15:46:08
+attr experiment General
+attr inifile C:/Users/Dexter/Downloads/inetmanet/examples/adhoc/aodv_mmap/omnetpp.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=0
+attr measurement ""
+attr network inet.examples.adhoc.aodv_mmap.mmap_example
+attr processid 3348
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+
+scalar mmap_example.host[0].udpApp[0] 	"Total send" 	0
+scalar mmap_example.host[0].udpApp[0] 	"Total received" 	0
+scalar mmap_example.host[0].udpApp[0] 	"Total deleted" 	0
+scalar mmap_example.host[0].udpApp[0] 	"Mean delay" 	0
+scalar mmap_example.host[0].udpApp[0] 	"Min delay" 	0
+scalar mmap_example.host[0].udpApp[0] 	"Max delay" 	0
+scalar mmap_example.host[0].udpApp[0] 	"Deviation delay" 	-1.#IND
+scalar mmap_example.host[0].udpApp[1] 	"Total send" 	0
+scalar mmap_example.host[0].udpApp[1] 	"Total received" 	0
+scalar mmap_example.host[0].udpApp[1] 	"Total deleted" 	0
+scalar mmap_example.host[0].udpApp[1] 	"Mean delay" 	0
+scalar mmap_example.host[0].udpApp[1] 	"Min delay" 	0
+scalar mmap_example.host[0].udpApp[1] 	"Max delay" 	0
+scalar mmap_example.host[0].udpApp[1] 	"Deviation delay" 	-1.#IND
+scalar mmap_example.host[0].pingApp 	"Pings sent" 	0
+scalar mmap_example.host[0].manetrouting.manetmanager.manetroutingprotocol 	"simulated time" 	2.159082852764
+scalar mmap_example.host[0].manetrouting.manetmanager.manetroutingprotocol 	"Dymo totalSend " 	2
+scalar mmap_example.host[0].manetrouting.manetmanager.manetroutingprotocol 	"Dymo Rreq send" 	1
+scalar mmap_example.host[0].manetrouting.manetmanager.manetroutingprotocol 	"Dymo Rreq rec" 	0
+scalar mmap_example.host[0].manetrouting.manetmanager.manetroutingprotocol 	"Dymo Rrep send" 	0
+scalar mmap_example.host[0].manetrouting.manetmanager.manetroutingprotocol 	"Dymo Rrep rec" 	0
+scalar mmap_example.host[0].manetrouting.manetmanager.manetroutingprotocol 	"Dymo Rerr send" 	0
+scalar mmap_example.host[0].manetrouting.manetmanager.manetroutingprotocol 	"Dymo Rerr rec" 	0
+scalar mmap_example.host[0].wlan.mgmt 	"packets received by queue" 	0
+scalar mmap_example.host[0].wlan.mgmt 	"packets dropped by queue" 	0
+scalar mmap_example.host[0].wlan.mac 	"number of received packets" 	0
+scalar mmap_example.host[0].wlan.mac 	"number of collisions" 	0
+scalar mmap_example.host[0].wlan.mac 	"number of internal collisions" 	0
+scalar mmap_example.host[0].wlan.mac 	"number of retry for AC 0" 	0
+scalar mmap_example.host[0].wlan.mac 	"number of retry for AC 1" 	0
+scalar mmap_example.host[0].wlan.mac 	"number of retry for AC 2" 	0
+scalar mmap_example.host[0].wlan.mac 	"number of retry for AC 3" 	0
+scalar mmap_example.host[0].wlan.mac 	"sent and receive bites" 	0
+scalar mmap_example.host[0].wlan.mac 	"sent packet within AC 0" 	0
+scalar mmap_example.host[0].wlan.mac 	"sent packet within AC 1" 	0
+scalar mmap_example.host[0].wlan.mac 	"sent packet within AC 2" 	0
+scalar mmap_example.host[0].wlan.mac 	"sent packet within AC 3" 	0
+scalar mmap_example.host[0].wlan.mac 	"sent in TXOP " 	0
+scalar mmap_example.host[0].wlan.mac 	"sentWithoutRetry AC 0" 	0
+scalar mmap_example.host[0].wlan.mac 	"sentWithoutRetry AC 1" 	0
+scalar mmap_example.host[0].wlan.mac 	"sentWithoutRetry AC 2" 	0
+scalar mmap_example.host[0].wlan.mac 	"sentWithoutRetry AC 3" 	0
+scalar mmap_example.host[0].wlan.mac 	"numGivenUp AC 0" 	0
+scalar mmap_example.host[0].wlan.mac 	"numGivenUp AC 1" 	0
+scalar mmap_example.host[0].wlan.mac 	"numGivenUp AC 2" 	0
+scalar mmap_example.host[0].wlan.mac 	"numGivenUp AC 3" 	0
+scalar mmap_example.host[0].wlan.mac 	"numDropped AC 0" 	0
+scalar mmap_example.host[0].wlan.mac 	"numDropped AC 1" 	0
+scalar mmap_example.host[0].wlan.mac 	"numDropped AC 2" 	0
+scalar mmap_example.host[0].wlan.mac 	"numDropped AC 3" 	0
+scalar mmap_example.host[1].udpApp[0] 	"Total send" 	0
+scalar mmap_example.host[1].udpApp[0] 	"Total received" 	0
+scalar mmap_example.host[1].udpApp[0] 	"Total deleted" 	0
+scalar mmap_example.host[1].udpApp[0] 	"Mean delay" 	0
+scalar mmap_example.host[1].udpApp[0] 	"Min delay" 	0
+scalar mmap_example.host[1].udpApp[0] 	"Max delay" 	0
+scalar mmap_example.host[1].udpApp[0] 	"Deviation delay" 	-1.#IND
+scalar mmap_example.host[1].udpApp[1] 	"Total send" 	0
+scalar mmap_example.host[1].udpApp[1] 	"Total received" 	0
+scalar mmap_example.host[1].udpApp[1] 	"Total deleted" 	0
+scalar mmap_example.host[1].udpApp[1] 	"Mean delay" 	0
+scalar mmap_example.host[1].udpApp[1] 	"Min delay" 	0
+scalar mmap_example.host[1].udpApp[1] 	"Max delay" 	0
+scalar mmap_example.host[1].udpApp[1] 	"Deviation delay" 	-1.#IND
+scalar mmap_example.host[1].pingApp 	"Pings sent" 	0
+scalar mmap_example.host[1].wlan.mgmt 	"packets received by queue" 	0
+scalar mmap_example.host[1].wlan.mgmt 	"packets dropped by queue" 	0
+scalar mmap_example.host[1].wlan.mac 	"number of received packets" 	0
+scalar mmap_example.host[1].wlan.mac 	"number of collisions" 	0
+scalar mmap_example.host[1].wlan.mac 	"number of internal collisions" 	0
+scalar mmap_example.host[1].wlan.mac 	"number of retry for AC 0" 	0
+scalar mmap_example.host[1].wlan.mac 	"number of retry for AC 1" 	0
+scalar mmap_example.host[1].wlan.mac 	"number of retry for AC 2" 	0
+scalar mmap_example.host[1].wlan.mac 	"number of retry for AC 3" 	0
+scalar mmap_example.host[1].wlan.mac 	"sent and receive bites" 	0
+scalar mmap_example.host[1].wlan.mac 	"sent packet within AC 0" 	0
+scalar mmap_example.host[1].wlan.mac 	"sent packet within AC 1" 	0
+scalar mmap_example.host[1].wlan.mac 	"sent packet within AC 2" 	0
+scalar mmap_example.host[1].wlan.mac 	"sent packet within AC 3" 	0
+scalar mmap_example.host[1].wlan.mac 	"sent in TXOP " 	0
+scalar mmap_example.host[1].wlan.mac 	"sentWithoutRetry AC 0" 	0
+scalar mmap_example.host[1].wlan.mac 	"sentWithoutRetry AC 1" 	0
+scalar mmap_example.host[1].wlan.mac 	"sentWithoutRetry AC 2" 	0
+scalar mmap_example.host[1].wlan.mac 	"sentWithoutRetry AC 3" 	0
+scalar mmap_example.host[1].wlan.mac 	"numGivenUp AC 0" 	0
+scalar mmap_example.host[1].wlan.mac 	"numGivenUp AC 1" 	0
+scalar mmap_example.host[1].wlan.mac 	"numGivenUp AC 2" 	0
+scalar mmap_example.host[1].wlan.mac 	"numGivenUp AC 3" 	0
+scalar mmap_example.host[1].wlan.mac 	"numDropped AC 0" 	0
+scalar mmap_example.host[1].wlan.mac 	"numDropped AC 1" 	0
+scalar mmap_example.host[1].wlan.mac 	"numDropped AC 2" 	0
+scalar mmap_example.host[1].wlan.mac 	"numDropped AC 3" 	0
+scalar mmap_example.host[2].udpApp[0] 	"Total send" 	0
+scalar mmap_example.host[2].udpApp[0] 	"Total received" 	0
+scalar mmap_example.host[2].udpApp[0] 	"Total deleted" 	0
+scalar mmap_example.host[2].udpApp[0] 	"Mean delay" 	0
+scalar mmap_example.host[2].udpApp[0] 	"Min delay" 	0
+scalar mmap_example.host[2].udpApp[0] 	"Max delay" 	0
+scalar mmap_example.host[2].udpApp[0] 	"Deviation delay" 	-1.#IND
+scalar mmap_example.host[2].udpApp[1] 	"Total send" 	0
+scalar mmap_example.host[2].udpApp[1] 	"Total received" 	0
+scalar mmap_example.host[2].udpApp[1] 	"Total deleted" 	0
+scalar mmap_example.host[2].udpApp[1] 	"Mean delay" 	0
+scalar mmap_example.host[2].udpApp[1] 	"Min delay" 	0
+scalar mmap_example.host[2].udpApp[1] 	"Max delay" 	0
+scalar mmap_example.host[2].udpApp[1] 	"Deviation delay" 	-1.#IND
+scalar mmap_example.host[2].pingApp 	"Pings sent" 	0
+scalar mmap_example.host[2].wlan.mgmt 	"packets received by queue" 	0
+scalar mmap_example.host[2].wlan.mgmt 	"packets dropped by queue" 	0
+scalar mmap_example.host[2].wlan.mac 	"number of received packets" 	0
+scalar mmap_example.host[2].wlan.mac 	"number of collisions" 	0
+scalar mmap_example.host[2].wlan.mac 	"number of internal collisions" 	0
+scalar mmap_example.host[2].wlan.mac 	"number of retry for AC 0" 	0
+scalar mmap_example.host[2].wlan.mac 	"number of retry for AC 1" 	0
+scalar mmap_example.host[2].wlan.mac 	"number of retry for AC 2" 	0
+scalar mmap_example.host[2].wlan.mac 	"number of retry for AC 3" 	0
+scalar mmap_example.host[2].wlan.mac 	"sent and receive bites" 	0
+scalar mmap_example.host[2].wlan.mac 	"sent packet within AC 0" 	0
+scalar mmap_example.host[2].wlan.mac 	"sent packet within AC 1" 	0
+scalar mmap_example.host[2].wlan.mac 	"sent packet within AC 2" 	0
+scalar mmap_example.host[2].wlan.mac 	"sent packet within AC 3" 	0
+scalar mmap_example.host[2].wlan.mac 	"sent in TXOP " 	0
+scalar mmap_example.host[2].wlan.mac 	"sentWithoutRetry AC 0" 	0
+scalar mmap_example.host[2].wlan.mac 	"sentWithoutRetry AC 1" 	0
+scalar mmap_example.host[2].wlan.mac 	"sentWithoutRetry AC 2" 	0
+scalar mmap_example.host[2].wlan.mac 	"sentWithoutRetry AC 3" 	0
+scalar mmap_example.host[2].wlan.mac 	"numGivenUp AC 0" 	0
+scalar mmap_example.host[2].wlan.mac 	"numGivenUp AC 1" 	0
+scalar mmap_example.host[2].wlan.mac 	"numGivenUp AC 2" 	0
+scalar mmap_example.host[2].wlan.mac 	"numGivenUp AC 3" 	0
+scalar mmap_example.host[2].wlan.mac 	"numDropped AC 0" 	0
+scalar mmap_example.host[2].wlan.mac 	"numDropped AC 1" 	0
+scalar mmap_example.host[2].wlan.mac 	"numDropped AC 2" 	0
+scalar mmap_example.host[2].wlan.mac 	"numDropped AC 3" 	0
+scalar mmap_example.host[3].udpApp[0] 	"Total send" 	0
+scalar mmap_example.host[3].udpApp[0] 	"Total received" 	0
+scalar mmap_example.host[3].udpApp[0] 	"Total deleted" 	0
+scalar mmap_example.host[3].udpApp[0] 	"Mean delay" 	0
+scalar mmap_example.host[3].udpApp[0] 	"Min delay" 	0
+scalar mmap_example.host[3].udpApp[0] 	"Max delay" 	0
+scalar mmap_example.host[3].udpApp[0] 	"Deviation delay" 	-1.#IND
+scalar mmap_example.host[3].udpApp[1] 	"Total send" 	0
+scalar mmap_example.host[3].udpApp[1] 	"Total received" 	0
+scalar mmap_example.host[3].udpApp[1] 	"Total deleted" 	0
+scalar mmap_example.host[3].udpApp[1] 	"Mean delay" 	0
+scalar mmap_example.host[3].udpApp[1] 	"Min delay" 	0
+scalar mmap_example.host[3].udpApp[1] 	"Max delay" 	0
+scalar mmap_example.host[3].udpApp[1] 	"Deviation delay" 	-1.#IND
+scalar mmap_example.host[3].pingApp 	"Pings sent" 	0
+scalar mmap_example.host[3].wlan.mgmt 	"packets received by queue" 	0
+scalar mmap_example.host[3].wlan.mgmt 	"packets dropped by queue" 	0
+scalar mmap_example.host[3].wlan.mac 	"number of received packets" 	0
+scalar mmap_example.host[3].wlan.mac 	"number of collisions" 	0
+scalar mmap_example.host[3].wlan.mac 	"number of internal collisions" 	0
+scalar mmap_example.host[3].wlan.mac 	"number of retry for AC 0" 	0
+scalar mmap_example.host[3].wlan.mac 	"number of retry for AC 1" 	0
+scalar mmap_example.host[3].wlan.mac 	"number of retry for AC 2" 	0
+scalar mmap_example.host[3].wlan.mac 	"number of retry for AC 3" 	0
+scalar mmap_example.host[3].wlan.mac 	"sent and receive bites" 	0
+scalar mmap_example.host[3].wlan.mac 	"sent packet within AC 0" 	0
+scalar mmap_example.host[3].wlan.mac 	"sent packet within AC 1" 	0
+scalar mmap_example.host[3].wlan.mac 	"sent packet within AC 2" 	0
+scalar mmap_example.host[3].wlan.mac 	"sent packet within AC 3" 	0
+scalar mmap_example.host[3].wlan.mac 	"sent in TXOP " 	0
+scalar mmap_example.host[3].wlan.mac 	"sentWithoutRetry AC 0" 	0
+scalar mmap_example.host[3].wlan.mac 	"sentWithoutRetry AC 1" 	0
+scalar mmap_example.host[3].wlan.mac 	"sentWithoutRetry AC 2" 	0
+scalar mmap_example.host[3].wlan.mac 	"sentWithoutRetry AC 3" 	0
+scalar mmap_example.host[3].wlan.mac 	"numGivenUp AC 0" 	0
+scalar mmap_example.host[3].wlan.mac 	"numGivenUp AC 1" 	0
+scalar mmap_example.host[3].wlan.mac 	"numGivenUp AC 2" 	0
+scalar mmap_example.host[3].wlan.mac 	"numGivenUp AC 3" 	0
+scalar mmap_example.host[3].wlan.mac 	"numDropped AC 0" 	0
+scalar mmap_example.host[3].wlan.mac 	"numDropped AC 1" 	0
+scalar mmap_example.host[3].wlan.mac 	"numDropped AC 2" 	0
+scalar mmap_example.host[3].wlan.mac 	"numDropped AC 3" 	0
+scalar mmap_example.host[4].udpApp[0] 	"Total send" 	0
+scalar mmap_example.host[4].udpApp[0] 	"Total received" 	0
+scalar mmap_example.host[4].udpApp[0] 	"Total deleted" 	0
+scalar mmap_example.host[4].udpApp[0] 	"Mean delay" 	0
+scalar mmap_example.host[4].udpApp[0] 	"Min delay" 	0
+scalar mmap_example.host[4].udpApp[0] 	"Max delay" 	0
+scalar mmap_example.host[4].udpApp[0] 	"Deviation delay" 	-1.#IND
+scalar mmap_example.host[4].udpApp[1] 	"Total send" 	0
+scalar mmap_example.host[4].udpApp[1] 	"Total received" 	0
+scalar mmap_example.host[4].udpApp[1] 	"Total deleted" 	0
+scalar mmap_example.host[4].udpApp[1] 	"Mean delay" 	0
+scalar mmap_example.host[4].udpApp[1] 	"Min delay" 	0
+scalar mmap_example.host[4].udpApp[1] 	"Max delay" 	0
+scalar mmap_example.host[4].udpApp[1] 	"Deviation delay" 	-1.#IND
+scalar mmap_example.host[4].pingApp 	"Pings sent" 	0
+scalar mmap_example.host[4].wlan.mgmt 	"packets received by queue" 	0
+scalar mmap_example.host[4].wlan.mgmt 	"packets dropped by queue" 	0
+scalar mmap_example.host[4].wlan.mac 	"number of received packets" 	0
+scalar mmap_example.host[4].wlan.mac 	"number of collisions" 	0
+scalar mmap_example.host[4].wlan.mac 	"number of internal collisions" 	0
+scalar mmap_example.host[4].wlan.mac 	"number of retry for AC 0" 	0
+scalar mmap_example.host[4].wlan.mac 	"number of retry for AC 1" 	0
+scalar mmap_example.host[4].wlan.mac 	"number of retry for AC 2" 	0
+scalar mmap_example.host[4].wlan.mac 	"number of retry for AC 3" 	0
+scalar mmap_example.host[4].wlan.mac 	"sent and receive bites" 	0
+scalar mmap_example.host[4].wlan.mac 	"sent packet within AC 0" 	0
+scalar mmap_example.host[4].wlan.mac 	"sent packet within AC 1" 	0
+scalar mmap_example.host[4].wlan.mac 	"sent packet within AC 2" 	0
+scalar mmap_example.host[4].wlan.mac 	"sent packet within AC 3" 	0
+scalar mmap_example.host[4].wlan.mac 	"sent in TXOP " 	0
+scalar mmap_example.host[4].wlan.mac 	"sentWithoutRetry AC 0" 	0
+scalar mmap_example.host[4].wlan.mac 	"sentWithoutRetry AC 1" 	0
+scalar mmap_example.host[4].wlan.mac 	"sentWithoutRetry AC 2" 	0
+scalar mmap_example.host[4].wlan.mac 	"sentWithoutRetry AC 3" 	0
+scalar mmap_example.host[4].wlan.mac 	"numGivenUp AC 0" 	0
+scalar mmap_example.host[4].wlan.mac 	"numGivenUp AC 1" 	0
+scalar mmap_example.host[4].wlan.mac 	"numGivenUp AC 2" 	0
+scalar mmap_example.host[4].wlan.mac 	"numGivenUp AC 3" 	0
+scalar mmap_example.host[4].wlan.mac 	"numDropped AC 0" 	0
+scalar mmap_example.host[4].wlan.mac 	"numDropped AC 1" 	0
+scalar mmap_example.host[4].wlan.mac 	"numDropped AC 2" 	0
+scalar mmap_example.host[4].wlan.mac 	"numDropped AC 3" 	0
+scalar mmap_example.host[5].udpApp[0] 	"Total send" 	0
+scalar mmap_example.host[5].udpApp[0] 	"Total received" 	0
+scalar mmap_example.host[5].udpApp[0] 	"Total deleted" 	0
+scalar mmap_example.host[5].udpApp[0] 	"Mean delay" 	0
+scalar mmap_example.host[5].udpApp[0] 	"Min delay" 	0
+scalar mmap_example.host[5].udpApp[0] 	"Max delay" 	0
+scalar mmap_example.host[5].udpApp[0] 	"Deviation delay" 	-1.#IND
+scalar mmap_example.host[5].udpApp[1] 	"Total send" 	0
+scalar mmap_example.host[5].udpApp[1] 	"Total received" 	0
+scalar mmap_example.host[5].udpApp[1] 	"Total deleted" 	0
+scalar mmap_example.host[5].udpApp[1] 	"Mean delay" 	0
+scalar mmap_example.host[5].udpApp[1] 	"Min delay" 	0
+scalar mmap_example.host[5].udpApp[1] 	"Max delay" 	0
+scalar mmap_example.host[5].udpApp[1] 	"Deviation delay" 	-1.#IND
+scalar mmap_example.host[5].pingApp 	"Pings sent" 	0
+scalar mmap_example.host[5].wlan.mgmt 	"packets received by queue" 	0
+scalar mmap_example.host[5].wlan.mgmt 	"packets dropped by queue" 	0
+scalar mmap_example.host[5].wlan.mac 	"number of received packets" 	0
+scalar mmap_example.host[5].wlan.mac 	"number of collisions" 	0
+scalar mmap_example.host[5].wlan.mac 	"number of internal collisions" 	0
+scalar mmap_example.host[5].wlan.mac 	"number of retry for AC 0" 	0
+scalar mmap_example.host[5].wlan.mac 	"number of retry for AC 1" 	0
+scalar mmap_example.host[5].wlan.mac 	"number of retry for AC 2" 	0
+scalar mmap_example.host[5].wlan.mac 	"number of retry for AC 3" 	0
+scalar mmap_example.host[5].wlan.mac 	"sent and receive bites" 	0
+scalar mmap_example.host[5].wlan.mac 	"sent packet within AC 0" 	0
+scalar mmap_example.host[5].wlan.mac 	"sent packet within AC 1" 	0
+scalar mmap_example.host[5].wlan.mac 	"sent packet within AC 2" 	0
+scalar mmap_example.host[5].wlan.mac 	"sent packet within AC 3" 	0
+scalar mmap_example.host[5].wlan.mac 	"sent in TXOP " 	0
+scalar mmap_example.host[5].wlan.mac 	"sentWithoutRetry AC 0" 	0
+scalar mmap_example.host[5].wlan.mac 	"sentWithoutRetry AC 1" 	0
+scalar mmap_example.host[5].wlan.mac 	"sentWithoutRetry AC 2" 	0
+scalar mmap_example.host[5].wlan.mac 	"sentWithoutRetry AC 3" 	0
+scalar mmap_example.host[5].wlan.mac 	"numGivenUp AC 0" 	0
+scalar mmap_example.host[5].wlan.mac 	"numGivenUp AC 1" 	0
+scalar mmap_example.host[5].wlan.mac 	"numGivenUp AC 2" 	0
+scalar mmap_example.host[5].wlan.mac 	"numGivenUp AC 3" 	0
+scalar mmap_example.host[5].wlan.mac 	"numDropped AC 0" 	0
+scalar mmap_example.host[5].wlan.mac 	"numDropped AC 1" 	0
+scalar mmap_example.host[5].wlan.mac 	"numDropped AC 2" 	0
+scalar mmap_example.host[5].wlan.mac 	"numDropped AC 3" 	0
+scalar mmap_example.host[6].udpApp[0] 	"Total send" 	0
+scalar mmap_example.host[6].udpApp[0] 	"Total received" 	0
+scalar mmap_example.host[6].udpApp[0] 	"Total deleted" 	0
+scalar mmap_example.host[6].udpApp[0] 	"Mean delay" 	0
+scalar mmap_example.host[6].udpApp[0] 	"Min delay" 	0
+scalar mmap_example.host[6].udpApp[0] 	"Max delay" 	0
+scalar mmap_example.host[6].udpApp[0] 	"Deviation delay" 	-1.#IND
+scalar mmap_example.host[6].udpApp[1] 	"Total send" 	1
+scalar mmap_example.host[6].udpApp[1] 	"Total received" 	0
+scalar mmap_example.host[6].udpApp[1] 	"Total deleted" 	0
+scalar mmap_example.host[6].udpApp[1] 	"Mean delay" 	0
+scalar mmap_example.host[6].udpApp[1] 	"Min delay" 	0
+scalar mmap_example.host[6].udpApp[1] 	"Max delay" 	0
+scalar mmap_example.host[6].udpApp[1] 	"Deviation delay" 	-1.#IND
+scalar mmap_example.host[6].pingApp 	"Pings sent" 	0
+scalar mmap_example.host[6].wlan.mgmt 	"packets received by queue" 	1
+scalar mmap_example.host[6].wlan.mgmt 	"packets dropped by queue" 	0
+scalar mmap_example.host[6].wlan.mac 	"number of received packets" 	0
+scalar mmap_example.host[6].wlan.mac 	"number of collisions" 	0
+scalar mmap_example.host[6].wlan.mac 	"number of internal collisions" 	0
+scalar mmap_example.host[6].wlan.mac 	"number of retry for AC 0" 	0
+scalar mmap_example.host[6].wlan.mac 	"number of retry for AC 1" 	0
+scalar mmap_example.host[6].wlan.mac 	"number of retry for AC 2" 	0
+scalar mmap_example.host[6].wlan.mac 	"number of retry for AC 3" 	0
+scalar mmap_example.host[6].wlan.mac 	"sent and receive bites" 	0
+scalar mmap_example.host[6].wlan.mac 	"sent packet within AC 0" 	0
+scalar mmap_example.host[6].wlan.mac 	"sent packet within AC 1" 	0
+scalar mmap_example.host[6].wlan.mac 	"sent packet within AC 2" 	0
+scalar mmap_example.host[6].wlan.mac 	"sent packet within AC 3" 	0
+scalar mmap_example.host[6].wlan.mac 	"sent in TXOP " 	0
+scalar mmap_example.host[6].wlan.mac 	"sentWithoutRetry AC 0" 	0
+scalar mmap_example.host[6].wlan.mac 	"sentWithoutRetry AC 1" 	0
+scalar mmap_example.host[6].wlan.mac 	"sentWithoutRetry AC 2" 	0
+scalar mmap_example.host[6].wlan.mac 	"sentWithoutRetry AC 3" 	0
+scalar mmap_example.host[6].wlan.mac 	"numGivenUp AC 0" 	0
+scalar mmap_example.host[6].wlan.mac 	"numGivenUp AC 1" 	0
+scalar mmap_example.host[6].wlan.mac 	"numGivenUp AC 2" 	0
+scalar mmap_example.host[6].wlan.mac 	"numGivenUp AC 3" 	0
+scalar mmap_example.host[6].wlan.mac 	"numDropped AC 0" 	0
+scalar mmap_example.host[6].wlan.mac 	"numDropped AC 1" 	0
+scalar mmap_example.host[6].wlan.mac 	"numDropped AC 2" 	0
+scalar mmap_example.host[6].wlan.mac 	"numDropped AC 3" 	0
+scalar mmap_example.host[7].udpApp[0] 	"Total send" 	0
+scalar mmap_example.host[7].udpApp[0] 	"Total received" 	0
+scalar mmap_example.host[7].udpApp[0] 	"Total deleted" 	0
+scalar mmap_example.host[7].udpApp[0] 	"Mean delay" 	0
+scalar mmap_example.host[7].udpApp[0] 	"Min delay" 	0
+scalar mmap_example.host[7].udpApp[0] 	"Max delay" 	0
+scalar mmap_example.host[7].udpApp[0] 	"Deviation delay" 	-1.#IND
+scalar mmap_example.host[7].udpApp[1] 	"Total send" 	0
+scalar mmap_example.host[7].udpApp[1] 	"Total received" 	0
+scalar mmap_example.host[7].udpApp[1] 	"Total deleted" 	0
+scalar mmap_example.host[7].udpApp[1] 	"Mean delay" 	0
+scalar mmap_example.host[7].udpApp[1] 	"Min delay" 	0
+scalar mmap_example.host[7].udpApp[1] 	"Max delay" 	0
+scalar mmap_example.host[7].udpApp[1] 	"Deviation delay" 	-1.#IND
+scalar mmap_example.host[7].pingApp 	"Pings sent" 	0
+scalar mmap_example.host[7].wlan.mgmt 	"packets received by queue" 	0
+scalar mmap_example.host[7].wlan.mgmt 	"packets dropped by queue" 	0
+scalar mmap_example.host[7].wlan.mac 	"number of received packets" 	0
+scalar mmap_example.host[7].wlan.mac 	"number of collisions" 	0
+scalar mmap_example.host[7].wlan.mac 	"number of internal collisions" 	0
+scalar mmap_example.host[7].wlan.mac 	"number of retry for AC 0" 	0
+scalar mmap_example.host[7].wlan.mac 	"number of retry for AC 1" 	0
+scalar mmap_example.host[7].wlan.mac 	"number of retry for AC 2" 	0
+scalar mmap_example.host[7].wlan.mac 	"number of retry for AC 3" 	0
+scalar mmap_example.host[7].wlan.mac 	"sent and receive bites" 	0
+scalar mmap_example.host[7].wlan.mac 	"sent packet within AC 0" 	0
+scalar mmap_example.host[7].wlan.mac 	"sent packet within AC 1" 	0
+scalar mmap_example.host[7].wlan.mac 	"sent packet within AC 2" 	0
+scalar mmap_example.host[7].wlan.mac 	"sent packet within AC 3" 	0
+scalar mmap_example.host[7].wlan.mac 	"sent in TXOP " 	0
+scalar mmap_example.host[7].wlan.mac 	"sentWithoutRetry AC 0" 	0
+scalar mmap_example.host[7].wlan.mac 	"sentWithoutRetry AC 1" 	0
+scalar mmap_example.host[7].wlan.mac 	"sentWithoutRetry AC 2" 	0
+scalar mmap_example.host[7].wlan.mac 	"sentWithoutRetry AC 3" 	0
+scalar mmap_example.host[7].wlan.mac 	"numGivenUp AC 0" 	0
+scalar mmap_example.host[7].wlan.mac 	"numGivenUp AC 1" 	0
+scalar mmap_example.host[7].wlan.mac 	"numGivenUp AC 2" 	0
+scalar mmap_example.host[7].wlan.mac 	"numGivenUp AC 3" 	0
+scalar mmap_example.host[7].wlan.mac 	"numDropped AC 0" 	0
+scalar mmap_example.host[7].wlan.mac 	"numDropped AC 1" 	0
+scalar mmap_example.host[7].wlan.mac 	"numDropped AC 2" 	0
+scalar mmap_example.host[7].wlan.mac 	"numDropped AC 3" 	0
+scalar mmap_example.host[8].udpApp[0] 	"Total send" 	0
+scalar mmap_example.host[8].udpApp[0] 	"Total received" 	0
+scalar mmap_example.host[8].udpApp[0] 	"Total deleted" 	0
+scalar mmap_example.host[8].udpApp[0] 	"Mean delay" 	0
+scalar mmap_example.host[8].udpApp[0] 	"Min delay" 	0
+scalar mmap_example.host[8].udpApp[0] 	"Max delay" 	0
+scalar mmap_example.host[8].udpApp[0] 	"Deviation delay" 	-1.#IND
+scalar mmap_example.host[8].udpApp[1] 	"Total send" 	0
+scalar mmap_example.host[8].udpApp[1] 	"Total received" 	0
+scalar mmap_example.host[8].udpApp[1] 	"Total deleted" 	0
+scalar mmap_example.host[8].udpApp[1] 	"Mean delay" 	0
+scalar mmap_example.host[8].udpApp[1] 	"Min delay" 	0
+scalar mmap_example.host[8].udpApp[1] 	"Max delay" 	0
+scalar mmap_example.host[8].udpApp[1] 	"Deviation delay" 	-1.#IND
+scalar mmap_example.host[8].pingApp 	"Pings sent" 	0
+scalar mmap_example.host[8].wlan.mgmt 	"packets received by queue" 	0
+scalar mmap_example.host[8].wlan.mgmt 	"packets dropped by queue" 	0
+scalar mmap_example.host[8].wlan.mac 	"number of received packets" 	0
+scalar mmap_example.host[8].wlan.mac 	"number of collisions" 	0
+scalar mmap_example.host[8].wlan.mac 	"number of internal collisions" 	0
+scalar mmap_example.host[8].wlan.mac 	"number of retry for AC 0" 	0
+scalar mmap_example.host[8].wlan.mac 	"number of retry for AC 1" 	0
+scalar mmap_example.host[8].wlan.mac 	"number of retry for AC 2" 	0
+scalar mmap_example.host[8].wlan.mac 	"number of retry for AC 3" 	0
+scalar mmap_example.host[8].wlan.mac 	"sent and receive bites" 	0
+scalar mmap_example.host[8].wlan.mac 	"sent packet within AC 0" 	0
+scalar mmap_example.host[8].wlan.mac 	"sent packet within AC 1" 	0
+scalar mmap_example.host[8].wlan.mac 	"sent packet within AC 2" 	0
+scalar mmap_example.host[8].wlan.mac 	"sent packet within AC 3" 	0
+scalar mmap_example.host[8].wlan.mac 	"sent in TXOP " 	0
+scalar mmap_example.host[8].wlan.mac 	"sentWithoutRetry AC 0" 	0
+scalar mmap_example.host[8].wlan.mac 	"sentWithoutRetry AC 1" 	0
+scalar mmap_example.host[8].wlan.mac 	"sentWithoutRetry AC 2" 	0
+scalar mmap_example.host[8].wlan.mac 	"sentWithoutRetry AC 3" 	0
+scalar mmap_example.host[8].wlan.mac 	"numGivenUp AC 0" 	0
+scalar mmap_example.host[8].wlan.mac 	"numGivenUp AC 1" 	0
+scalar mmap_example.host[8].wlan.mac 	"numGivenUp AC 2" 	0
+scalar mmap_example.host[8].wlan.mac 	"numGivenUp AC 3" 	0
+scalar mmap_example.host[8].wlan.mac 	"numDropped AC 0" 	0
+scalar mmap_example.host[8].wlan.mac 	"numDropped AC 1" 	0
+scalar mmap_example.host[8].wlan.mac 	"numDropped AC 2" 	0
+scalar mmap_example.host[8].wlan.mac 	"numDropped AC 3" 	0
+scalar mmap_example.host[9].udpApp[0] 	"Total send" 	0
+scalar mmap_example.host[9].udpApp[0] 	"Total received" 	0
+scalar mmap_example.host[9].udpApp[0] 	"Total deleted" 	0
+scalar mmap_example.host[9].udpApp[0] 	"Mean delay" 	0
+scalar mmap_example.host[9].udpApp[0] 	"Min delay" 	0
+scalar mmap_example.host[9].udpApp[0] 	"Max delay" 	0
+scalar mmap_example.host[9].udpApp[0] 	"Deviation delay" 	-1.#IND
+scalar mmap_example.host[9].udpApp[1] 	"Total send" 	0
+scalar mmap_example.host[9].udpApp[1] 	"Total received" 	0
+scalar mmap_example.host[9].udpApp[1] 	"Total deleted" 	0
+scalar mmap_example.host[9].udpApp[1] 	"Mean delay" 	0
+scalar mmap_example.host[9].udpApp[1] 	"Min delay" 	0
+scalar mmap_example.host[9].udpApp[1] 	"Max delay" 	0
+scalar mmap_example.host[9].udpApp[1] 	"Deviation delay" 	-1.#IND
+scalar mmap_example.host[9].pingApp 	"Pings sent" 	0
+scalar mmap_example.host[9].wlan.mgmt 	"packets received by queue" 	0
+scalar mmap_example.host[9].wlan.mgmt 	"packets dropped by queue" 	0
+scalar mmap_example.host[9].wlan.mac 	"number of received packets" 	0
+scalar mmap_example.host[9].wlan.mac 	"number of collisions" 	0
+scalar mmap_example.host[9].wlan.mac 	"number of internal collisions" 	0
+scalar mmap_example.host[9].wlan.mac 	"number of retry for AC 0" 	0
+scalar mmap_example.host[9].wlan.mac 	"number of retry for AC 1" 	0
+scalar mmap_example.host[9].wlan.mac 	"number of retry for AC 2" 	0
+scalar mmap_example.host[9].wlan.mac 	"number of retry for AC 3" 	0
+scalar mmap_example.host[9].wlan.mac 	"sent and receive bites" 	0
+scalar mmap_example.host[9].wlan.mac 	"sent packet within AC 0" 	0
+scalar mmap_example.host[9].wlan.mac 	"sent packet within AC 1" 	0
+scalar mmap_example.host[9].wlan.mac 	"sent packet within AC 2" 	0
+scalar mmap_example.host[9].wlan.mac 	"sent packet within AC 3" 	0
+scalar mmap_example.host[9].wlan.mac 	"sent in TXOP " 	0
+scalar mmap_example.host[9].wlan.mac 	"sentWithoutRetry AC 0" 	0
+scalar mmap_example.host[9].wlan.mac 	"sentWithoutRetry AC 1" 	0
+scalar mmap_example.host[9].wlan.mac 	"sentWithoutRetry AC 2" 	0
+scalar mmap_example.host[9].wlan.mac 	"sentWithoutRetry AC 3" 	0
+scalar mmap_example.host[9].wlan.mac 	"numGivenUp AC 0" 	0
+scalar mmap_example.host[9].wlan.mac 	"numGivenUp AC 1" 	0
+scalar mmap_example.host[9].wlan.mac 	"numGivenUp AC 2" 	0
+scalar mmap_example.host[9].wlan.mac 	"numGivenUp AC 3" 	0
+scalar mmap_example.host[9].wlan.mac 	"numDropped AC 0" 	0
+scalar mmap_example.host[9].wlan.mac 	"numDropped AC 1" 	0
+scalar mmap_example.host[9].wlan.mac 	"numDropped AC 2" 	0
+scalar mmap_example.host[9].wlan.mac 	"numDropped AC 3" 	0

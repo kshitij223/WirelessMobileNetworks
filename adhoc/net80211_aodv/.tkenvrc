@@ -1,0 +1,10 @@
+# Partial Tkenv config file -- see $HOME/.tkenvrc as well
+inspector "Net80211_aodv.host[1].wlan.radio.RREQAodvMsg" "AirFrameExtended" "1" "1x1+0+0"
+inspector "Net80211_aodv.fixhost[2].wlan.radio.RREQAodvMsg" "AirFrameExtended" "1" "460x312+100+100"
+inspector "simulation.scheduled-events.ping0-reply" "AirFrameExtended" "1" "460x312+125+125"
+inspector "Net80211_aodv.host[1].wlan.radio.ping0-reply" "AirFrameExtended" "1" "460x312+125+125"
+inspector "Net80211_aodv.fixhost[0].wlan.radio.RREQAodvMsg" "AirFrameExtended" "1" "460x312+100+100"
+inspector "Net80211_aodv.fixhost[1].wlan.radio.RREQAodvMsg" "AirFrameExtended" "1" "116x1+0+0"
+inspector "simulation.scheduled-events.RouteReplyAck" "AirFrameExtended" "1" "460x312+125+125"
+inspector "Net80211_aodv.host[0].wlan.radio.ping0-reply" "AirFrameExtended" "1" "460x312+125+125"
+

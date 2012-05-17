@@ -1,0 +1,21 @@
+version 2
+run Ping1-0-20120517-10:21:16-5264
+attr configname Ping1
+attr datetime 20120517-10:21:16
+attr experiment Ping1
+attr inifile C:/Users/Dexter/Downloads/inetmanet/examples/adhoc/mf80211/omnetpp.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=0
+attr measurement ""
+attr network Net80211
+attr processid 5264
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+
+vector 2  Net80211.host[1].pingApp  pingRTT  ETV
+2	744	3.374380711299	0.003002245744
+2	987	4.373101735915	0.00172327036
+2	1232	5.373001942389	0.001623476834

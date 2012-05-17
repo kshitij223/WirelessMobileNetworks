@@ -1,0 +1,26 @@
+file 828 1337231910                                             
+version 2
+run TurtleMobility2-0-20120517-01:18:20-6168
+attr configname TurtleMobility2
+attr datetime 20120517-01:18:20
+attr experiment TurtleMobility2
+attr inifile C:/Users/Dexter/Downloads/inetmanet/examples/adhoc/mobility/omnetpp.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=0
+attr measurement ""
+attr network MobileNet
+attr processid 6168
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+
+vector 5  MobileNet.host[0].wlan.mac  RadioState  ETV
+attr enum  "IDLE=0, RECV=1, SLEEP=3, TRANSMIT=2"
+attr enumname  RadioState
+vector 4  MobileNet.host[0].wlan.mac  State  ETV
+attr enum  "BACKOFF=3, DEFER=1, IDLE=0, RECEIVE=8, WAITACK=4, WAITBROADCAST=5, WAITCTS=6, WAITDIFS=2, WAITSIFS=7"
+attr enumname  Ieee80211Mac
+4	792 18 0 0 0 0 2 0 0 0 0
+5	810 18 0 0 0 0 2 0 0 0 0

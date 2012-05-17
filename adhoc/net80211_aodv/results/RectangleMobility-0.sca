@@ -1,0 +1,243 @@
+version 2
+run RectangleMobility-0-20120517-12:19:08-2424
+attr configname RectangleMobility
+attr datetime 20120517-12:19:08
+attr experiment RectangleMobility
+attr inifile C:/Users/Dexter/Downloads/inetmanet/examples/adhoc/net80211_aodv/omnetpp.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=0
+attr measurement ""
+attr network inet.examples.adhoc.net80211_aodv.Net80211_aodv
+attr processid 2424
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+
+scalar Net80211_aodv.fixhost[0].pingApp 	"Pings sent" 	0
+scalar Net80211_aodv.fixhost[0].manetrouting.manetmanager.manetroutingprotocol 	"simulated time" 	1.831691044036
+scalar Net80211_aodv.fixhost[0].manetrouting.manetmanager.manetroutingprotocol 	"Aodv totalSend " 	9
+scalar Net80211_aodv.fixhost[0].manetrouting.manetmanager.manetroutingprotocol 	"rreq send" 	6
+scalar Net80211_aodv.fixhost[0].manetrouting.manetmanager.manetroutingprotocol 	"rreq rec" 	6
+scalar Net80211_aodv.fixhost[0].manetrouting.manetmanager.manetroutingprotocol 	"rrep send" 	1
+scalar Net80211_aodv.fixhost[0].manetrouting.manetmanager.manetroutingprotocol 	"rrep rec" 	1
+scalar Net80211_aodv.fixhost[0].manetrouting.manetmanager.manetroutingprotocol 	"rrep ack send" 	1
+scalar Net80211_aodv.fixhost[0].manetrouting.manetmanager.manetroutingprotocol 	"rrep ack rec" 	1
+scalar Net80211_aodv.fixhost[0].manetrouting.manetmanager.manetroutingprotocol 	"rerr send" 	0
+scalar Net80211_aodv.fixhost[0].manetrouting.manetmanager.manetroutingprotocol 	"rerr rec" 	0
+scalar Net80211_aodv.fixhost[0].wlan.mgmt 	"packets received by queue" 	0
+scalar Net80211_aodv.fixhost[0].wlan.mgmt 	"packets dropped by queue" 	0
+scalar Net80211_aodv.fixhost[0].wlan.mac 	"number of received packets" 	0
+scalar Net80211_aodv.fixhost[0].wlan.mac 	"number of collisions" 	0
+scalar Net80211_aodv.fixhost[0].wlan.mac 	"number of internal collisions" 	0
+scalar Net80211_aodv.fixhost[0].wlan.mac 	"number of retry for AC 0" 	0
+scalar Net80211_aodv.fixhost[0].wlan.mac 	"number of retry for AC 1" 	0
+scalar Net80211_aodv.fixhost[0].wlan.mac 	"number of retry for AC 2" 	0
+scalar Net80211_aodv.fixhost[0].wlan.mac 	"number of retry for AC 3" 	0
+scalar Net80211_aodv.fixhost[0].wlan.mac 	"sent and receive bites" 	0
+scalar Net80211_aodv.fixhost[0].wlan.mac 	"sent packet within AC 0" 	0
+scalar Net80211_aodv.fixhost[0].wlan.mac 	"sent packet within AC 1" 	0
+scalar Net80211_aodv.fixhost[0].wlan.mac 	"sent packet within AC 2" 	0
+scalar Net80211_aodv.fixhost[0].wlan.mac 	"sent packet within AC 3" 	0
+scalar Net80211_aodv.fixhost[0].wlan.mac 	"sent in TXOP " 	0
+scalar Net80211_aodv.fixhost[0].wlan.mac 	"sentWithoutRetry AC 0" 	0
+scalar Net80211_aodv.fixhost[0].wlan.mac 	"sentWithoutRetry AC 1" 	0
+scalar Net80211_aodv.fixhost[0].wlan.mac 	"sentWithoutRetry AC 2" 	0
+scalar Net80211_aodv.fixhost[0].wlan.mac 	"sentWithoutRetry AC 3" 	0
+scalar Net80211_aodv.fixhost[0].wlan.mac 	"numGivenUp AC 0" 	0
+scalar Net80211_aodv.fixhost[0].wlan.mac 	"numGivenUp AC 1" 	0
+scalar Net80211_aodv.fixhost[0].wlan.mac 	"numGivenUp AC 2" 	0
+scalar Net80211_aodv.fixhost[0].wlan.mac 	"numGivenUp AC 3" 	0
+scalar Net80211_aodv.fixhost[0].wlan.mac 	"numDropped AC 0" 	0
+scalar Net80211_aodv.fixhost[0].wlan.mac 	"numDropped AC 1" 	0
+scalar Net80211_aodv.fixhost[0].wlan.mac 	"numDropped AC 2" 	0
+scalar Net80211_aodv.fixhost[0].wlan.mac 	"numDropped AC 3" 	0
+scalar Net80211_aodv.fixhost[1].pingApp 	"Pings sent" 	0
+scalar Net80211_aodv.fixhost[1].wlan.mgmt 	"packets received by queue" 	2
+scalar Net80211_aodv.fixhost[1].wlan.mgmt 	"packets dropped by queue" 	0
+scalar Net80211_aodv.fixhost[1].wlan.mac 	"number of received packets" 	2
+scalar Net80211_aodv.fixhost[1].wlan.mac 	"number of collisions" 	0
+scalar Net80211_aodv.fixhost[1].wlan.mac 	"number of internal collisions" 	0
+scalar Net80211_aodv.fixhost[1].wlan.mac 	"number of retry for AC 0" 	0
+scalar Net80211_aodv.fixhost[1].wlan.mac 	"number of retry for AC 1" 	0
+scalar Net80211_aodv.fixhost[1].wlan.mac 	"number of retry for AC 2" 	0
+scalar Net80211_aodv.fixhost[1].wlan.mac 	"number of retry for AC 3" 	0
+scalar Net80211_aodv.fixhost[1].wlan.mac 	"sent and receive bites" 	656
+scalar Net80211_aodv.fixhost[1].wlan.mac 	"sent packet within AC 0" 	1
+scalar Net80211_aodv.fixhost[1].wlan.mac 	"sent packet within AC 1" 	0
+scalar Net80211_aodv.fixhost[1].wlan.mac 	"sent packet within AC 2" 	0
+scalar Net80211_aodv.fixhost[1].wlan.mac 	"sent packet within AC 3" 	0
+scalar Net80211_aodv.fixhost[1].wlan.mac 	"sent in TXOP " 	0
+scalar Net80211_aodv.fixhost[1].wlan.mac 	"sentWithoutRetry AC 0" 	1
+scalar Net80211_aodv.fixhost[1].wlan.mac 	"sentWithoutRetry AC 1" 	0
+scalar Net80211_aodv.fixhost[1].wlan.mac 	"sentWithoutRetry AC 2" 	0
+scalar Net80211_aodv.fixhost[1].wlan.mac 	"sentWithoutRetry AC 3" 	0
+scalar Net80211_aodv.fixhost[1].wlan.mac 	"numGivenUp AC 0" 	0
+scalar Net80211_aodv.fixhost[1].wlan.mac 	"numGivenUp AC 1" 	0
+scalar Net80211_aodv.fixhost[1].wlan.mac 	"numGivenUp AC 2" 	0
+scalar Net80211_aodv.fixhost[1].wlan.mac 	"numGivenUp AC 3" 	0
+scalar Net80211_aodv.fixhost[1].wlan.mac 	"numDropped AC 0" 	0
+scalar Net80211_aodv.fixhost[1].wlan.mac 	"numDropped AC 1" 	0
+scalar Net80211_aodv.fixhost[1].wlan.mac 	"numDropped AC 2" 	0
+scalar Net80211_aodv.fixhost[1].wlan.mac 	"numDropped AC 3" 	0
+scalar Net80211_aodv.fixhost[2].pingApp 	"Pings sent" 	0
+scalar Net80211_aodv.fixhost[2].wlan.mgmt 	"packets received by queue" 	0
+scalar Net80211_aodv.fixhost[2].wlan.mgmt 	"packets dropped by queue" 	0
+scalar Net80211_aodv.fixhost[2].wlan.mac 	"number of received packets" 	0
+scalar Net80211_aodv.fixhost[2].wlan.mac 	"number of collisions" 	1
+scalar Net80211_aodv.fixhost[2].wlan.mac 	"number of internal collisions" 	0
+scalar Net80211_aodv.fixhost[2].wlan.mac 	"number of retry for AC 0" 	0
+scalar Net80211_aodv.fixhost[2].wlan.mac 	"number of retry for AC 1" 	0
+scalar Net80211_aodv.fixhost[2].wlan.mac 	"number of retry for AC 2" 	0
+scalar Net80211_aodv.fixhost[2].wlan.mac 	"number of retry for AC 3" 	0
+scalar Net80211_aodv.fixhost[2].wlan.mac 	"sent and receive bites" 	0
+scalar Net80211_aodv.fixhost[2].wlan.mac 	"sent packet within AC 0" 	0
+scalar Net80211_aodv.fixhost[2].wlan.mac 	"sent packet within AC 1" 	0
+scalar Net80211_aodv.fixhost[2].wlan.mac 	"sent packet within AC 2" 	0
+scalar Net80211_aodv.fixhost[2].wlan.mac 	"sent packet within AC 3" 	0
+scalar Net80211_aodv.fixhost[2].wlan.mac 	"sent in TXOP " 	0
+scalar Net80211_aodv.fixhost[2].wlan.mac 	"sentWithoutRetry AC 0" 	0
+scalar Net80211_aodv.fixhost[2].wlan.mac 	"sentWithoutRetry AC 1" 	0
+scalar Net80211_aodv.fixhost[2].wlan.mac 	"sentWithoutRetry AC 2" 	0
+scalar Net80211_aodv.fixhost[2].wlan.mac 	"sentWithoutRetry AC 3" 	0
+scalar Net80211_aodv.fixhost[2].wlan.mac 	"numGivenUp AC 0" 	0
+scalar Net80211_aodv.fixhost[2].wlan.mac 	"numGivenUp AC 1" 	0
+scalar Net80211_aodv.fixhost[2].wlan.mac 	"numGivenUp AC 2" 	0
+scalar Net80211_aodv.fixhost[2].wlan.mac 	"numGivenUp AC 3" 	0
+scalar Net80211_aodv.fixhost[2].wlan.mac 	"numDropped AC 0" 	0
+scalar Net80211_aodv.fixhost[2].wlan.mac 	"numDropped AC 1" 	0
+scalar Net80211_aodv.fixhost[2].wlan.mac 	"numDropped AC 2" 	0
+scalar Net80211_aodv.fixhost[2].wlan.mac 	"numDropped AC 3" 	0
+scalar Net80211_aodv.host[0].udpApp[0] 	"Total send" 	0
+scalar Net80211_aodv.host[0].udpApp[0] 	"Total received" 	0
+scalar Net80211_aodv.host[0].udpApp[0] 	"Total deleted" 	0
+scalar Net80211_aodv.host[0].udpApp[0] 	"Mean delay" 	0
+scalar Net80211_aodv.host[0].udpApp[0] 	"Min delay" 	0
+scalar Net80211_aodv.host[0].udpApp[0] 	"Max delay" 	0
+scalar Net80211_aodv.host[0].udpApp[0] 	"Deviation delay" 	-1.#IND
+scalar Net80211_aodv.host[0].pingApp 	"Pings sent" 	0
+scalar Net80211_aodv.host[0].wlan.mgmt 	"packets received by queue" 	0
+scalar Net80211_aodv.host[0].wlan.mgmt 	"packets dropped by queue" 	0
+scalar Net80211_aodv.host[0].wlan.mac 	"number of received packets" 	0
+scalar Net80211_aodv.host[0].wlan.mac 	"number of collisions" 	0
+scalar Net80211_aodv.host[0].wlan.mac 	"number of internal collisions" 	0
+scalar Net80211_aodv.host[0].wlan.mac 	"number of retry for AC 0" 	0
+scalar Net80211_aodv.host[0].wlan.mac 	"number of retry for AC 1" 	0
+scalar Net80211_aodv.host[0].wlan.mac 	"number of retry for AC 2" 	0
+scalar Net80211_aodv.host[0].wlan.mac 	"number of retry for AC 3" 	0
+scalar Net80211_aodv.host[0].wlan.mac 	"sent and receive bites" 	0
+scalar Net80211_aodv.host[0].wlan.mac 	"sent packet within AC 0" 	0
+scalar Net80211_aodv.host[0].wlan.mac 	"sent packet within AC 1" 	0
+scalar Net80211_aodv.host[0].wlan.mac 	"sent packet within AC 2" 	0
+scalar Net80211_aodv.host[0].wlan.mac 	"sent packet within AC 3" 	0
+scalar Net80211_aodv.host[0].wlan.mac 	"sent in TXOP " 	0
+scalar Net80211_aodv.host[0].wlan.mac 	"sentWithoutRetry AC 0" 	0
+scalar Net80211_aodv.host[0].wlan.mac 	"sentWithoutRetry AC 1" 	0
+scalar Net80211_aodv.host[0].wlan.mac 	"sentWithoutRetry AC 2" 	0
+scalar Net80211_aodv.host[0].wlan.mac 	"sentWithoutRetry AC 3" 	0
+scalar Net80211_aodv.host[0].wlan.mac 	"numGivenUp AC 0" 	0
+scalar Net80211_aodv.host[0].wlan.mac 	"numGivenUp AC 1" 	0
+scalar Net80211_aodv.host[0].wlan.mac 	"numGivenUp AC 2" 	0
+scalar Net80211_aodv.host[0].wlan.mac 	"numGivenUp AC 3" 	0
+scalar Net80211_aodv.host[0].wlan.mac 	"numDropped AC 0" 	0
+scalar Net80211_aodv.host[0].wlan.mac 	"numDropped AC 1" 	0
+scalar Net80211_aodv.host[0].wlan.mac 	"numDropped AC 2" 	0
+scalar Net80211_aodv.host[0].wlan.mac 	"numDropped AC 3" 	0
+scalar Net80211_aodv.host[1].pingApp 	"Pings sent" 	1
+scalar Net80211_aodv.host[1].pingApp 	"Pings dropped" 	0
+scalar Net80211_aodv.host[1].pingApp 	"Out-of-order ping arrivals" 	0
+scalar Net80211_aodv.host[1].pingApp 	"Pings outstanding at end" 	1
+scalar Net80211_aodv.host[1].pingApp 	"Ping drop rate (%)" 	0
+scalar Net80211_aodv.host[1].pingApp 	"Ping out-of-order rate (%)" 	0
+statistic Net80211_aodv.host[1].pingApp 	"Ping roundtrip delays"
+field count 0
+field mean 0
+field stddev -1.#IND
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+scalar Net80211_aodv.host[1].wlan.mgmt 	"packets received by queue" 	3
+scalar Net80211_aodv.host[1].wlan.mgmt 	"packets dropped by queue" 	0
+scalar Net80211_aodv.host[1].wlan.mac 	"number of received packets" 	1
+scalar Net80211_aodv.host[1].wlan.mac 	"number of collisions" 	0
+scalar Net80211_aodv.host[1].wlan.mac 	"number of internal collisions" 	0
+scalar Net80211_aodv.host[1].wlan.mac 	"number of retry for AC 0" 	0
+scalar Net80211_aodv.host[1].wlan.mac 	"number of retry for AC 1" 	0
+scalar Net80211_aodv.host[1].wlan.mac 	"number of retry for AC 2" 	0
+scalar Net80211_aodv.host[1].wlan.mac 	"number of retry for AC 3" 	0
+scalar Net80211_aodv.host[1].wlan.mac 	"sent and receive bites" 	2080
+scalar Net80211_aodv.host[1].wlan.mac 	"sent packet within AC 0" 	1
+scalar Net80211_aodv.host[1].wlan.mac 	"sent packet within AC 1" 	1
+scalar Net80211_aodv.host[1].wlan.mac 	"sent packet within AC 2" 	0
+scalar Net80211_aodv.host[1].wlan.mac 	"sent packet within AC 3" 	0
+scalar Net80211_aodv.host[1].wlan.mac 	"sent in TXOP " 	0
+scalar Net80211_aodv.host[1].wlan.mac 	"sentWithoutRetry AC 0" 	1
+scalar Net80211_aodv.host[1].wlan.mac 	"sentWithoutRetry AC 1" 	1
+scalar Net80211_aodv.host[1].wlan.mac 	"sentWithoutRetry AC 2" 	0
+scalar Net80211_aodv.host[1].wlan.mac 	"sentWithoutRetry AC 3" 	0
+scalar Net80211_aodv.host[1].wlan.mac 	"numGivenUp AC 0" 	0
+scalar Net80211_aodv.host[1].wlan.mac 	"numGivenUp AC 1" 	0
+scalar Net80211_aodv.host[1].wlan.mac 	"numGivenUp AC 2" 	0
+scalar Net80211_aodv.host[1].wlan.mac 	"numGivenUp AC 3" 	0
+scalar Net80211_aodv.host[1].wlan.mac 	"numDropped AC 0" 	0
+scalar Net80211_aodv.host[1].wlan.mac 	"numDropped AC 1" 	0
+scalar Net80211_aodv.host[1].wlan.mac 	"numDropped AC 2" 	0
+scalar Net80211_aodv.host[1].wlan.mac 	"numDropped AC 3" 	0
+scalar Net80211_aodv.host[2].pingApp 	"Pings sent" 	0
+scalar Net80211_aodv.host[2].wlan.mgmt 	"packets received by queue" 	0
+scalar Net80211_aodv.host[2].wlan.mgmt 	"packets dropped by queue" 	0
+scalar Net80211_aodv.host[2].wlan.mac 	"number of received packets" 	0
+scalar Net80211_aodv.host[2].wlan.mac 	"number of collisions" 	0
+scalar Net80211_aodv.host[2].wlan.mac 	"number of internal collisions" 	0
+scalar Net80211_aodv.host[2].wlan.mac 	"number of retry for AC 0" 	0
+scalar Net80211_aodv.host[2].wlan.mac 	"number of retry for AC 1" 	0
+scalar Net80211_aodv.host[2].wlan.mac 	"number of retry for AC 2" 	0
+scalar Net80211_aodv.host[2].wlan.mac 	"number of retry for AC 3" 	0
+scalar Net80211_aodv.host[2].wlan.mac 	"sent and receive bites" 	0
+scalar Net80211_aodv.host[2].wlan.mac 	"sent packet within AC 0" 	0
+scalar Net80211_aodv.host[2].wlan.mac 	"sent packet within AC 1" 	0
+scalar Net80211_aodv.host[2].wlan.mac 	"sent packet within AC 2" 	0
+scalar Net80211_aodv.host[2].wlan.mac 	"sent packet within AC 3" 	0
+scalar Net80211_aodv.host[2].wlan.mac 	"sent in TXOP " 	0
+scalar Net80211_aodv.host[2].wlan.mac 	"sentWithoutRetry AC 0" 	0
+scalar Net80211_aodv.host[2].wlan.mac 	"sentWithoutRetry AC 1" 	0
+scalar Net80211_aodv.host[2].wlan.mac 	"sentWithoutRetry AC 2" 	0
+scalar Net80211_aodv.host[2].wlan.mac 	"sentWithoutRetry AC 3" 	0
+scalar Net80211_aodv.host[2].wlan.mac 	"numGivenUp AC 0" 	0
+scalar Net80211_aodv.host[2].wlan.mac 	"numGivenUp AC 1" 	0
+scalar Net80211_aodv.host[2].wlan.mac 	"numGivenUp AC 2" 	0
+scalar Net80211_aodv.host[2].wlan.mac 	"numGivenUp AC 3" 	0
+scalar Net80211_aodv.host[2].wlan.mac 	"numDropped AC 0" 	0
+scalar Net80211_aodv.host[2].wlan.mac 	"numDropped AC 1" 	0
+scalar Net80211_aodv.host[2].wlan.mac 	"numDropped AC 2" 	0
+scalar Net80211_aodv.host[2].wlan.mac 	"numDropped AC 3" 	0
+scalar Net80211_aodv.host[3].pingApp 	"Pings sent" 	0
+scalar Net80211_aodv.host[3].wlan.mgmt 	"packets received by queue" 	1
+scalar Net80211_aodv.host[3].wlan.mgmt 	"packets dropped by queue" 	0
+scalar Net80211_aodv.host[3].wlan.mac 	"number of received packets" 	0
+scalar Net80211_aodv.host[3].wlan.mac 	"number of collisions" 	0
+scalar Net80211_aodv.host[3].wlan.mac 	"number of internal collisions" 	0
+scalar Net80211_aodv.host[3].wlan.mac 	"number of retry for AC 0" 	0
+scalar Net80211_aodv.host[3].wlan.mac 	"number of retry for AC 1" 	0
+scalar Net80211_aodv.host[3].wlan.mac 	"number of retry for AC 2" 	0
+scalar Net80211_aodv.host[3].wlan.mac 	"number of retry for AC 3" 	0
+scalar Net80211_aodv.host[3].wlan.mac 	"sent and receive bites" 	0
+scalar Net80211_aodv.host[3].wlan.mac 	"sent packet within AC 0" 	0
+scalar Net80211_aodv.host[3].wlan.mac 	"sent packet within AC 1" 	0
+scalar Net80211_aodv.host[3].wlan.mac 	"sent packet within AC 2" 	0
+scalar Net80211_aodv.host[3].wlan.mac 	"sent packet within AC 3" 	0
+scalar Net80211_aodv.host[3].wlan.mac 	"sent in TXOP " 	0
+scalar Net80211_aodv.host[3].wlan.mac 	"sentWithoutRetry AC 0" 	0
+scalar Net80211_aodv.host[3].wlan.mac 	"sentWithoutRetry AC 1" 	0
+scalar Net80211_aodv.host[3].wlan.mac 	"sentWithoutRetry AC 2" 	0
+scalar Net80211_aodv.host[3].wlan.mac 	"sentWithoutRetry AC 3" 	0
+scalar Net80211_aodv.host[3].wlan.mac 	"numGivenUp AC 0" 	0
+scalar Net80211_aodv.host[3].wlan.mac 	"numGivenUp AC 1" 	0
+scalar Net80211_aodv.host[3].wlan.mac 	"numGivenUp AC 2" 	0
+scalar Net80211_aodv.host[3].wlan.mac 	"numGivenUp AC 3" 	0
+scalar Net80211_aodv.host[3].wlan.mac 	"numDropped AC 0" 	0
+scalar Net80211_aodv.host[3].wlan.mac 	"numDropped AC 1" 	0
+scalar Net80211_aodv.host[3].wlan.mac 	"numDropped AC 2" 	0
+scalar Net80211_aodv.host[3].wlan.mac 	"numDropped AC 3" 	0

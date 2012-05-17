@@ -1,0 +1,172 @@
+version 2
+run General-0-20120517-14:39:59-9696
+attr configname General
+attr datetime 20120517-14:39:59
+attr experiment General
+attr inifile C:/Users/Dexter/Downloads/inetmanet/examples/adhoc/net80211_mesh/omnetpp.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=0
+attr measurement ""
+attr network inet.examples.adhoc.net80211_mesh.Net80211_mesh
+attr processid 9696
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+
+scalar Net80211_mesh.fixhost[0].pingApp 	"Pings sent" 	0
+scalar Net80211_mesh.fixhost[0].wlan.mgmt 	"packets received by queue" 	0
+scalar Net80211_mesh.fixhost[0].wlan.mgmt 	"packets dropped by queue" 	0
+scalar Net80211_mesh.fixhost[0].wlan.mac 	numSent 	0
+scalar Net80211_mesh.fixhost[0].wlan.mac 	numSentWithoutRetry 	0
+scalar Net80211_mesh.fixhost[0].wlan.mac 	numReceived 	0
+scalar Net80211_mesh.fixhost[0].wlan.mac 	numSentBroadcast 	-1
+scalar Net80211_mesh.fixhost[0].wlan.mac 	numReceivedBroadcast 	0
+scalar Net80211_mesh.fixhost[0].wlan.mac 	numReceivedOther 	0
+scalar Net80211_mesh.fixhost[0].wlan.mac 	numCollision 	0
+scalar Net80211_mesh.fixhost[0].wlan.mac 	numGivenUp 	0
+scalar Net80211_mesh.fixhost[0].wlan.mac 	numAckSend 	0
+scalar Net80211_mesh.fixhost[0].wlan.mac 	numRetry 	0
+scalar Net80211_mesh.fixhost[1].pingApp 	"Pings sent" 	0
+scalar Net80211_mesh.fixhost[1].wlan.mgmt 	"packets received by queue" 	0
+scalar Net80211_mesh.fixhost[1].wlan.mgmt 	"packets dropped by queue" 	0
+scalar Net80211_mesh.fixhost[1].wlan.mac 	numSent 	0
+scalar Net80211_mesh.fixhost[1].wlan.mac 	numSentWithoutRetry 	0
+scalar Net80211_mesh.fixhost[1].wlan.mac 	numReceived 	0
+scalar Net80211_mesh.fixhost[1].wlan.mac 	numSentBroadcast 	-1
+scalar Net80211_mesh.fixhost[1].wlan.mac 	numReceivedBroadcast 	0
+scalar Net80211_mesh.fixhost[1].wlan.mac 	numReceivedOther 	0
+scalar Net80211_mesh.fixhost[1].wlan.mac 	numCollision 	0
+scalar Net80211_mesh.fixhost[1].wlan.mac 	numGivenUp 	0
+scalar Net80211_mesh.fixhost[1].wlan.mac 	numAckSend 	0
+scalar Net80211_mesh.fixhost[1].wlan.mac 	numRetry 	0
+scalar Net80211_mesh.fixhost[2].pingApp 	"Pings sent" 	0
+scalar Net80211_mesh.fixhost[2].wlan.mgmt 	"packets received by queue" 	0
+scalar Net80211_mesh.fixhost[2].wlan.mgmt 	"packets dropped by queue" 	0
+scalar Net80211_mesh.fixhost[2].wlan.mac 	numSent 	0
+scalar Net80211_mesh.fixhost[2].wlan.mac 	numSentWithoutRetry 	0
+scalar Net80211_mesh.fixhost[2].wlan.mac 	numReceived 	0
+scalar Net80211_mesh.fixhost[2].wlan.mac 	numSentBroadcast 	-1
+scalar Net80211_mesh.fixhost[2].wlan.mac 	numReceivedBroadcast 	0
+scalar Net80211_mesh.fixhost[2].wlan.mac 	numReceivedOther 	0
+scalar Net80211_mesh.fixhost[2].wlan.mac 	numCollision 	0
+scalar Net80211_mesh.fixhost[2].wlan.mac 	numGivenUp 	0
+scalar Net80211_mesh.fixhost[2].wlan.mac 	numAckSend 	0
+scalar Net80211_mesh.fixhost[2].wlan.mac 	numRetry 	0
+scalar Net80211_mesh.host[0].pingApp 	"Pings sent" 	0
+scalar Net80211_mesh.host[0].wlan.mgmt 	"packets received by queue" 	0
+scalar Net80211_mesh.host[0].wlan.mgmt 	"packets dropped by queue" 	0
+scalar Net80211_mesh.host[0].wlan.mac 	numSent 	0
+scalar Net80211_mesh.host[0].wlan.mac 	numSentWithoutRetry 	0
+scalar Net80211_mesh.host[0].wlan.mac 	numReceived 	0
+scalar Net80211_mesh.host[0].wlan.mac 	numSentBroadcast 	-1
+scalar Net80211_mesh.host[0].wlan.mac 	numReceivedBroadcast 	0
+scalar Net80211_mesh.host[0].wlan.mac 	numReceivedOther 	0
+scalar Net80211_mesh.host[0].wlan.mac 	numCollision 	0
+scalar Net80211_mesh.host[0].wlan.mac 	numGivenUp 	0
+scalar Net80211_mesh.host[0].wlan.mac 	numAckSend 	0
+scalar Net80211_mesh.host[0].wlan.mac 	numRetry 	0
+scalar Net80211_mesh.host[1].pingApp 	"Pings sent" 	0
+scalar Net80211_mesh.host[1].wlan.mgmt 	"packets received by queue" 	0
+scalar Net80211_mesh.host[1].wlan.mgmt 	"packets dropped by queue" 	0
+scalar Net80211_mesh.host[1].wlan.mac 	numSent 	0
+scalar Net80211_mesh.host[1].wlan.mac 	numSentWithoutRetry 	0
+scalar Net80211_mesh.host[1].wlan.mac 	numReceived 	0
+scalar Net80211_mesh.host[1].wlan.mac 	numSentBroadcast 	-1
+scalar Net80211_mesh.host[1].wlan.mac 	numReceivedBroadcast 	0
+scalar Net80211_mesh.host[1].wlan.mac 	numReceivedOther 	0
+scalar Net80211_mesh.host[1].wlan.mac 	numCollision 	0
+scalar Net80211_mesh.host[1].wlan.mac 	numGivenUp 	0
+scalar Net80211_mesh.host[1].wlan.mac 	numAckSend 	0
+scalar Net80211_mesh.host[1].wlan.mac 	numRetry 	0
+scalar Net80211_mesh.host[2].pingApp 	"Pings sent" 	0
+scalar Net80211_mesh.host[2].wlan.mgmt 	"packets received by queue" 	0
+scalar Net80211_mesh.host[2].wlan.mgmt 	"packets dropped by queue" 	0
+scalar Net80211_mesh.host[2].wlan.mac 	numSent 	0
+scalar Net80211_mesh.host[2].wlan.mac 	numSentWithoutRetry 	0
+scalar Net80211_mesh.host[2].wlan.mac 	numReceived 	0
+scalar Net80211_mesh.host[2].wlan.mac 	numSentBroadcast 	-1
+scalar Net80211_mesh.host[2].wlan.mac 	numReceivedBroadcast 	0
+scalar Net80211_mesh.host[2].wlan.mac 	numReceivedOther 	0
+scalar Net80211_mesh.host[2].wlan.mac 	numCollision 	0
+scalar Net80211_mesh.host[2].wlan.mac 	numGivenUp 	0
+scalar Net80211_mesh.host[2].wlan.mac 	numAckSend 	0
+scalar Net80211_mesh.host[2].wlan.mac 	numRetry 	0
+scalar Net80211_mesh.host[3].pingApp 	"Pings sent" 	0
+scalar Net80211_mesh.host[3].wlan.mgmt 	"packets received by queue" 	0
+scalar Net80211_mesh.host[3].wlan.mgmt 	"packets dropped by queue" 	0
+scalar Net80211_mesh.host[3].wlan.mac 	numSent 	0
+scalar Net80211_mesh.host[3].wlan.mac 	numSentWithoutRetry 	0
+scalar Net80211_mesh.host[3].wlan.mac 	numReceived 	0
+scalar Net80211_mesh.host[3].wlan.mac 	numSentBroadcast 	-1
+scalar Net80211_mesh.host[3].wlan.mac 	numReceivedBroadcast 	0
+scalar Net80211_mesh.host[3].wlan.mac 	numReceivedOther 	0
+scalar Net80211_mesh.host[3].wlan.mac 	numCollision 	0
+scalar Net80211_mesh.host[3].wlan.mac 	numGivenUp 	0
+scalar Net80211_mesh.host[3].wlan.mac 	numAckSend 	0
+scalar Net80211_mesh.host[3].wlan.mac 	numRetry 	0
+scalar Net80211_mesh.basic[0].sink.sink 	numPackets 	0
+scalar Net80211_mesh.basic[0].sink.sink 	numBits 	0
+scalar Net80211_mesh.basic[0].sink.sink 	throughput 	0
+scalar Net80211_mesh.basic[0].sink.sink 	packetPerSec 	0
+scalar Net80211_mesh.basic[0].wlan.mgmt 	"packets received by queue" 	0
+scalar Net80211_mesh.basic[0].wlan.mgmt 	"packets dropped by queue" 	0
+scalar Net80211_mesh.basic[0].wlan.mac 	numSent 	0
+scalar Net80211_mesh.basic[0].wlan.mac 	numSentWithoutRetry 	0
+scalar Net80211_mesh.basic[0].wlan.mac 	numReceived 	0
+scalar Net80211_mesh.basic[0].wlan.mac 	numSentBroadcast 	-1
+scalar Net80211_mesh.basic[0].wlan.mac 	numReceivedBroadcast 	0
+scalar Net80211_mesh.basic[0].wlan.mac 	numReceivedOther 	0
+scalar Net80211_mesh.basic[0].wlan.mac 	numCollision 	0
+scalar Net80211_mesh.basic[0].wlan.mac 	numGivenUp 	0
+scalar Net80211_mesh.basic[0].wlan.mac 	numAckSend 	0
+scalar Net80211_mesh.basic[0].wlan.mac 	numRetry 	0
+scalar Net80211_mesh.basic[1].sink.sink 	numPackets 	0
+scalar Net80211_mesh.basic[1].sink.sink 	numBits 	0
+scalar Net80211_mesh.basic[1].sink.sink 	throughput 	0
+scalar Net80211_mesh.basic[1].sink.sink 	packetPerSec 	0
+scalar Net80211_mesh.basic[1].wlan.mgmt 	"packets received by queue" 	0
+scalar Net80211_mesh.basic[1].wlan.mgmt 	"packets dropped by queue" 	0
+scalar Net80211_mesh.basic[1].wlan.mac 	numSent 	0
+scalar Net80211_mesh.basic[1].wlan.mac 	numSentWithoutRetry 	0
+scalar Net80211_mesh.basic[1].wlan.mac 	numReceived 	0
+scalar Net80211_mesh.basic[1].wlan.mac 	numSentBroadcast 	-1
+scalar Net80211_mesh.basic[1].wlan.mac 	numReceivedBroadcast 	0
+scalar Net80211_mesh.basic[1].wlan.mac 	numReceivedOther 	0
+scalar Net80211_mesh.basic[1].wlan.mac 	numCollision 	0
+scalar Net80211_mesh.basic[1].wlan.mac 	numGivenUp 	0
+scalar Net80211_mesh.basic[1].wlan.mac 	numAckSend 	0
+scalar Net80211_mesh.basic[1].wlan.mac 	numRetry 	0
+scalar Net80211_mesh.basic[2].sink.sink 	numPackets 	0
+scalar Net80211_mesh.basic[2].sink.sink 	numBits 	0
+scalar Net80211_mesh.basic[2].sink.sink 	throughput 	0
+scalar Net80211_mesh.basic[2].sink.sink 	packetPerSec 	0
+scalar Net80211_mesh.basic[2].wlan.mgmt 	"packets received by queue" 	0
+scalar Net80211_mesh.basic[2].wlan.mgmt 	"packets dropped by queue" 	0
+scalar Net80211_mesh.basic[2].wlan.mac 	numSent 	0
+scalar Net80211_mesh.basic[2].wlan.mac 	numSentWithoutRetry 	0
+scalar Net80211_mesh.basic[2].wlan.mac 	numReceived 	0
+scalar Net80211_mesh.basic[2].wlan.mac 	numSentBroadcast 	-1
+scalar Net80211_mesh.basic[2].wlan.mac 	numReceivedBroadcast 	0
+scalar Net80211_mesh.basic[2].wlan.mac 	numReceivedOther 	0
+scalar Net80211_mesh.basic[2].wlan.mac 	numCollision 	0
+scalar Net80211_mesh.basic[2].wlan.mac 	numGivenUp 	0
+scalar Net80211_mesh.basic[2].wlan.mac 	numAckSend 	0
+scalar Net80211_mesh.basic[2].wlan.mac 	numRetry 	0
+scalar Net80211_mesh.basic[3].sink.sink 	numPackets 	0
+scalar Net80211_mesh.basic[3].sink.sink 	numBits 	0
+scalar Net80211_mesh.basic[3].sink.sink 	throughput 	0
+scalar Net80211_mesh.basic[3].sink.sink 	packetPerSec 	0
+scalar Net80211_mesh.basic[3].wlan.mgmt 	"packets received by queue" 	0
+scalar Net80211_mesh.basic[3].wlan.mgmt 	"packets dropped by queue" 	0
+scalar Net80211_mesh.basic[3].wlan.mac 	numSent 	0
+scalar Net80211_mesh.basic[3].wlan.mac 	numSentWithoutRetry 	0
+scalar Net80211_mesh.basic[3].wlan.mac 	numReceived 	0
+scalar Net80211_mesh.basic[3].wlan.mac 	numSentBroadcast 	-1
+scalar Net80211_mesh.basic[3].wlan.mac 	numReceivedBroadcast 	0
+scalar Net80211_mesh.basic[3].wlan.mac 	numReceivedOther 	0
+scalar Net80211_mesh.basic[3].wlan.mac 	numCollision 	0
+scalar Net80211_mesh.basic[3].wlan.mac 	numGivenUp 	0
+scalar Net80211_mesh.basic[3].wlan.mac 	numAckSend 	0
+scalar Net80211_mesh.basic[3].wlan.mac 	numRetry 	0

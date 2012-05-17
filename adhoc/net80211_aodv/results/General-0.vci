@@ -1,0 +1,252 @@
+file 24482 1337227555                                           
+version 2
+run General-0-20120517-00:05:12-5160
+attr configname General
+attr datetime 20120517-00:05:12
+attr experiment General
+attr inifile C:/Users/Dexter/Downloads/inetmanet/examples/adhoc/net80211_aodv/omnetpp.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=0
+attr measurement ""
+attr network inet.examples.adhoc.net80211_aodv.Net80211_aodv
+attr processid 5160
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+
+vector 5  Net80211_aodv.fixhost[0].wlan.mac  RadioState  ETV
+attr enum  "IDLE=0, RECV=1, SLEEP=3, TRANSMIT=2"
+attr enumname  RadioState
+vector 4  Net80211_aodv.fixhost[0].wlan.mac  State  ETV
+attr enum  "BACKOFF=3, DEFER=1, IDLE=0, RECEIVE=8, WAITACK=4, WAITAIFS=2, WAITBROADCAST=5, WAITCTS=6, WAITSIFS=7"
+attr enumname  Ieee80211egMac
+vector 25  Net80211_aodv.fixhost[1].wlan.mac  RadioState  ETV
+attr enum  "IDLE=0, RECV=1, SLEEP=3, TRANSMIT=2"
+attr enumname  RadioState
+vector 24  Net80211_aodv.fixhost[1].wlan.mac  State  ETV
+attr enum  "BACKOFF=3, DEFER=1, IDLE=0, RECEIVE=8, WAITACK=4, WAITAIFS=2, WAITBROADCAST=5, WAITCTS=6, WAITSIFS=7"
+attr enumname  Ieee80211egMac
+vector 45  Net80211_aodv.fixhost[2].wlan.mac  RadioState  ETV
+attr enum  "IDLE=0, RECV=1, SLEEP=3, TRANSMIT=2"
+attr enumname  RadioState
+vector 44  Net80211_aodv.fixhost[2].wlan.mac  State  ETV
+attr enum  "BACKOFF=3, DEFER=1, IDLE=0, RECEIVE=8, WAITACK=4, WAITAIFS=2, WAITBROADCAST=5, WAITCTS=6, WAITSIFS=7"
+attr enumname  Ieee80211egMac
+vector 65  Net80211_aodv.host[0].wlan.mac  RadioState  ETV
+attr enum  "IDLE=0, RECV=1, SLEEP=3, TRANSMIT=2"
+attr enumname  RadioState
+vector 64  Net80211_aodv.host[0].wlan.mac  State  ETV
+attr enum  "BACKOFF=3, DEFER=1, IDLE=0, RECEIVE=8, WAITACK=4, WAITAIFS=2, WAITBROADCAST=5, WAITCTS=6, WAITSIFS=7"
+attr enumname  Ieee80211egMac
+vector 85  Net80211_aodv.host[1].wlan.mac  RadioState  ETV
+attr enum  "IDLE=0, RECV=1, SLEEP=3, TRANSMIT=2"
+attr enumname  RadioState
+vector 84  Net80211_aodv.host[1].wlan.mac  State  ETV
+attr enum  "BACKOFF=3, DEFER=1, IDLE=0, RECEIVE=8, WAITACK=4, WAITAIFS=2, WAITBROADCAST=5, WAITCTS=6, WAITSIFS=7"
+attr enumname  Ieee80211egMac
+vector 105  Net80211_aodv.host[2].wlan.mac  RadioState  ETV
+attr enum  "IDLE=0, RECV=1, SLEEP=3, TRANSMIT=2"
+attr enumname  RadioState
+vector 104  Net80211_aodv.host[2].wlan.mac  State  ETV
+attr enum  "BACKOFF=3, DEFER=1, IDLE=0, RECEIVE=8, WAITACK=4, WAITAIFS=2, WAITBROADCAST=5, WAITCTS=6, WAITSIFS=7"
+attr enumname  Ieee80211egMac
+vector 125  Net80211_aodv.host[3].wlan.mac  RadioState  ETV
+attr enum  "IDLE=0, RECV=1, SLEEP=3, TRANSMIT=2"
+attr enumname  RadioState
+vector 124  Net80211_aodv.host[3].wlan.mac  State  ETV
+attr enum  "BACKOFF=3, DEFER=1, IDLE=0, RECEIVE=8, WAITACK=4, WAITAIFS=2, WAITBROADCAST=5, WAITCTS=6, WAITSIFS=7"
+attr enumname  Ieee80211egMac
+vector 145  Net80211_aodv.host[4].wlan.mac  RadioState  ETV
+attr enum  "IDLE=0, RECV=1, SLEEP=3, TRANSMIT=2"
+attr enumname  RadioState
+vector 144  Net80211_aodv.host[4].wlan.mac  State  ETV
+attr enum  "BACKOFF=3, DEFER=1, IDLE=0, RECEIVE=8, WAITACK=4, WAITAIFS=2, WAITBROADCAST=5, WAITCTS=6, WAITSIFS=7"
+attr enumname  Ieee80211egMac
+vector 165  Net80211_aodv.host[5].wlan.mac  RadioState  ETV
+attr enum  "IDLE=0, RECV=1, SLEEP=3, TRANSMIT=2"
+attr enumname  RadioState
+vector 164  Net80211_aodv.host[5].wlan.mac  State  ETV
+attr enum  "BACKOFF=3, DEFER=1, IDLE=0, RECEIVE=8, WAITACK=4, WAITAIFS=2, WAITBROADCAST=5, WAITCTS=6, WAITSIFS=7"
+attr enumname  Ieee80211egMac
+vector 185  Net80211_aodv.host[6].wlan.mac  RadioState  ETV
+attr enum  "IDLE=0, RECV=1, SLEEP=3, TRANSMIT=2"
+attr enumname  RadioState
+vector 184  Net80211_aodv.host[6].wlan.mac  State  ETV
+attr enum  "BACKOFF=3, DEFER=1, IDLE=0, RECEIVE=8, WAITACK=4, WAITAIFS=2, WAITBROADCAST=5, WAITCTS=6, WAITSIFS=7"
+attr enumname  Ieee80211egMac
+vector 205  Net80211_aodv.host[7].wlan.mac  RadioState  ETV
+attr enum  "IDLE=0, RECV=1, SLEEP=3, TRANSMIT=2"
+attr enumname  RadioState
+vector 204  Net80211_aodv.host[7].wlan.mac  State  ETV
+attr enum  "BACKOFF=3, DEFER=1, IDLE=0, RECEIVE=8, WAITACK=4, WAITAIFS=2, WAITBROADCAST=5, WAITCTS=6, WAITSIFS=7"
+attr enumname  Ieee80211egMac
+vector 225  Net80211_aodv.host[8].wlan.mac  RadioState  ETV
+attr enum  "IDLE=0, RECV=1, SLEEP=3, TRANSMIT=2"
+attr enumname  RadioState
+vector 224  Net80211_aodv.host[8].wlan.mac  State  ETV
+attr enum  "BACKOFF=3, DEFER=1, IDLE=0, RECEIVE=8, WAITACK=4, WAITAIFS=2, WAITBROADCAST=5, WAITCTS=6, WAITSIFS=7"
+attr enumname  Ieee80211egMac
+vector 245  Net80211_aodv.host[9].wlan.mac  RadioState  ETV
+attr enum  "IDLE=0, RECV=1, SLEEP=3, TRANSMIT=2"
+attr enumname  RadioState
+vector 244  Net80211_aodv.host[9].wlan.mac  State  ETV
+attr enum  "BACKOFF=3, DEFER=1, IDLE=0, RECEIVE=8, WAITACK=4, WAITAIFS=2, WAITBROADCAST=5, WAITCTS=6, WAITSIFS=7"
+attr enumname  Ieee80211egMac
+vector 26  Net80211_aodv.fixhost[1].wlan.mac  "throughput AC0"  ETV
+vector 27  Net80211_aodv.fixhost[1].wlan.mac  "throughput AC1"  ETV
+vector 28  Net80211_aodv.fixhost[1].wlan.mac  "throughput AC2"  ETV
+vector 29  Net80211_aodv.fixhost[1].wlan.mac  "throughput AC3"  ETV
+vector 246  Net80211_aodv.host[9].wlan.mac  "throughput AC0"  ETV
+vector 247  Net80211_aodv.host[9].wlan.mac  "throughput AC1"  ETV
+vector 248  Net80211_aodv.host[9].wlan.mac  "throughput AC2"  ETV
+vector 249  Net80211_aodv.host[9].wlan.mac  "throughput AC3"  ETV
+vector 106  Net80211_aodv.host[2].wlan.mac  "throughput AC0"  ETV
+vector 107  Net80211_aodv.host[2].wlan.mac  "throughput AC1"  ETV
+vector 108  Net80211_aodv.host[2].wlan.mac  "throughput AC2"  ETV
+vector 109  Net80211_aodv.host[2].wlan.mac  "throughput AC3"  ETV
+vector 206  Net80211_aodv.host[7].wlan.mac  "throughput AC0"  ETV
+vector 207  Net80211_aodv.host[7].wlan.mac  "throughput AC1"  ETV
+vector 208  Net80211_aodv.host[7].wlan.mac  "throughput AC2"  ETV
+vector 209  Net80211_aodv.host[7].wlan.mac  "throughput AC3"  ETV
+vector 46  Net80211_aodv.fixhost[2].wlan.mac  "throughput AC0"  ETV
+vector 47  Net80211_aodv.fixhost[2].wlan.mac  "throughput AC1"  ETV
+vector 48  Net80211_aodv.fixhost[2].wlan.mac  "throughput AC2"  ETV
+vector 49  Net80211_aodv.fixhost[2].wlan.mac  "throughput AC3"  ETV
+vector 226  Net80211_aodv.host[8].wlan.mac  "throughput AC0"  ETV
+vector 227  Net80211_aodv.host[8].wlan.mac  "throughput AC1"  ETV
+vector 228  Net80211_aodv.host[8].wlan.mac  "throughput AC2"  ETV
+vector 229  Net80211_aodv.host[8].wlan.mac  "throughput AC3"  ETV
+vector 6  Net80211_aodv.fixhost[0].wlan.mac  "throughput AC0"  ETV
+vector 7  Net80211_aodv.fixhost[0].wlan.mac  "throughput AC1"  ETV
+vector 8  Net80211_aodv.fixhost[0].wlan.mac  "throughput AC2"  ETV
+vector 9  Net80211_aodv.fixhost[0].wlan.mac  "throughput AC3"  ETV
+vector 166  Net80211_aodv.host[5].wlan.mac  "throughput AC0"  ETV
+vector 167  Net80211_aodv.host[5].wlan.mac  "throughput AC1"  ETV
+vector 168  Net80211_aodv.host[5].wlan.mac  "throughput AC2"  ETV
+vector 169  Net80211_aodv.host[5].wlan.mac  "throughput AC3"  ETV
+vector 66  Net80211_aodv.host[0].wlan.mac  "throughput AC0"  ETV
+vector 67  Net80211_aodv.host[0].wlan.mac  "throughput AC1"  ETV
+vector 68  Net80211_aodv.host[0].wlan.mac  "throughput AC2"  ETV
+vector 69  Net80211_aodv.host[0].wlan.mac  "throughput AC3"  ETV
+vector 146  Net80211_aodv.host[4].wlan.mac  "throughput AC0"  ETV
+vector 147  Net80211_aodv.host[4].wlan.mac  "throughput AC1"  ETV
+vector 148  Net80211_aodv.host[4].wlan.mac  "throughput AC2"  ETV
+vector 149  Net80211_aodv.host[4].wlan.mac  "throughput AC3"  ETV
+vector 186  Net80211_aodv.host[6].wlan.mac  "throughput AC0"  ETV
+vector 187  Net80211_aodv.host[6].wlan.mac  "throughput AC1"  ETV
+vector 188  Net80211_aodv.host[6].wlan.mac  "throughput AC2"  ETV
+vector 189  Net80211_aodv.host[6].wlan.mac  "throughput AC3"  ETV
+vector 86  Net80211_aodv.host[1].wlan.mac  "throughput AC0"  ETV
+vector 87  Net80211_aodv.host[1].wlan.mac  "throughput AC1"  ETV
+vector 88  Net80211_aodv.host[1].wlan.mac  "throughput AC2"  ETV
+vector 89  Net80211_aodv.host[1].wlan.mac  "throughput AC3"  ETV
+vector 126  Net80211_aodv.host[3].wlan.mac  "throughput AC0"  ETV
+vector 127  Net80211_aodv.host[3].wlan.mac  "throughput AC1"  ETV
+vector 128  Net80211_aodv.host[3].wlan.mac  "throughput AC2"  ETV
+vector 129  Net80211_aodv.host[3].wlan.mac  "throughput AC3"  ETV
+vector 259  Net80211_aodv.host[9].wlan.radio  snirVector  ETV
+vector 119  Net80211_aodv.host[2].wlan.radio  snirVector  ETV
+vector 219  Net80211_aodv.host[7].wlan.radio  snirVector  ETV
+vector 59  Net80211_aodv.fixhost[2].wlan.radio  snirVector  ETV
+vector 239  Net80211_aodv.host[8].wlan.radio  snirVector  ETV
+vector 19  Net80211_aodv.fixhost[0].wlan.radio  snirVector  ETV
+vector 179  Net80211_aodv.host[5].wlan.radio  snirVector  ETV
+vector 79  Net80211_aodv.host[0].wlan.radio  snirVector  ETV
+vector 159  Net80211_aodv.host[4].wlan.radio  snirVector  ETV
+vector 199  Net80211_aodv.host[6].wlan.radio  snirVector  ETV
+vector 99  Net80211_aodv.host[1].wlan.radio  snirVector  ETV
+vector 139  Net80211_aodv.host[3].wlan.radio  snirVector  ETV
+vector 39  Net80211_aodv.fixhost[1].wlan.radio  snirVector  ETV
+4	9230 576 0 401 0 1.0016182746 26 0 0 0 0
+5	9806 390 0 400 0 1.0016182746 18 0 1 8 8
+6	10196 23 47 47 1.000497451699 1.000497451699 1 0 0 0 0
+7	10219 23 47 47 1.000497451699 1.000497451699 1 0 0 0 0
+8	10242 23 47 47 1.000497451699 1.000497451699 1 0 0 0 0
+9	10265 23 47 47 1.000497451699 1.000497451699 1 0 0 0 0
+19	10288 38 76 76 1.000539451699 1.000539451699 1 25.974602892999 25.974602892999 25.974602892999 674.67999544898
+24	10326 704 0 397 0 1.001618144597 30 0 5 36 128
+25	11030 412 0 396 0 1.001618144597 18 0 2 10 14
+26	11442 24 39 39 1.000423706344 1.000423706344 1 0 0 0 0
+27	11466 24 39 39 1.000423706344 1.000423706344 1 0 0 0 0
+28	11490 24 39 39 1.000423706344 1.000423706344 1 0 0 0 0
+29	11514 24 39 39 1.000423706344 1.000423706344 1 0 0 0 0
+39	11538 37 192 192 1.00112850651 1.00112850651 1 23.17907626992 23.17907626992 23.17907626992 537.26957672675
+44	11575 608 0 373 0 1.001617555596 26 0 0 0 0
+45	12183 412 0 372 0 1.001617555596 18 0 1 8 8
+46	12595 23 45 45 1.00049737301 1.00049737301 1 0 0 0 0
+47	12618 23 45 45 1.00049737301 1.00049737301 1 0 0 0 0
+48	12641 23 45 45 1.00049737301 1.00049737301 1 0 0 0 0
+49	12664 23 45 45 1.00049737301 1.00049737301 1 0 0 0 0
+59	12687 37 68 68 1.00053937301 1.00053937301 1 26.943703023079 26.943703023079 26.943703023079 725.9631325959
+64	12724 314 0 197 0 1.001128512596 14 0 0 0 0
+65	13038 216 0 196 0 1.001128512596 10 0 1 4 4
+66	13254 24 49 49 1.000497615116 1.000497615116 1 0 0 0 0
+67	13278 24 49 49 1.000497615116 1.000497615116 1 0 0 0 0
+68	13302 24 49 49 1.000497615116 1.000497615116 1 0 0 0 0
+69	13326 24 49 49 1.000497615116 1.000497615116 1 0 0 0 0
+79	13350 38 84 84 1.000539615116 1.000539615116 1 24.252772616658 24.252772616658 24.252772616658 588.19697959532
+84	13388 714 0 367 0 1.001616962093 30 0 5 28 114
+85	14102 416 0 367 0 1.001616962093 18 0 2 10 14
+86	14518 24 52 52 1.000497888848 1.000497888848 1 0 0 0 0
+87	14542 24 52 52 1.000497888848 1.000497888848 1 0 0 0 0
+88	14566 24 52 52 1.000497888848 1.000497888848 1 0 0 0 0
+89	14590 24 52 52 1.000497888848 1.000497888848 1 0 0 0 0
+99	14614 38 96 96 1.000539888848 1.000539888848 1 21.965819115124 21.965819115124 21.965819115124 482.49720939835
+104	14652 640 0 405 0 1.001618315642 26 0 0 0 0
+105	15292 434 0 404 0 1.001618315642 18 0 1 8 8
+106	15726 25 43 43 1.000497100275 1.000497100275 1 0 0 0 0
+107	15751 25 43 43 1.000497100275 1.000497100275 1 0 0 0 0
+108	15776 25 43 43 1.000497100275 1.000497100275 1 0 0 0 0
+109	15801 25 43 43 1.000497100275 1.000497100275 1 0 0 0 0
+119	15826 39 60 60 1.000539100275 1.000539100275 1 31.513473595539 31.513473595539 31.513473595539 993.09901805676
+124	15865 638 0 369 0 1.001617221531 26 0 0 0 0
+125	16503 432 0 368 0 1.001617221531 18 0 1 8 8
+126	16935 24 53 53 1.00049806074 1.00049806074 1 0 0 0 0
+127	16959 24 53 53 1.00049806074 1.00049806074 1 0 0 0 0
+128	16983 24 53 53 1.00049806074 1.00049806074 1 0 0 0 0
+129	17007 24 53 53 1.00049806074 1.00049806074 1 0 0 0 0
+139	17031 39 100 100 1.00054006074 1.00054006074 1 20.786962822255 20.786962822255 20.786962822255 432.09782337381
+144	17070 484 0 409 0 1.001618352538 20 0 0 0 0
+145	17554 330 0 408 0 1.001618352538 14 0 1 6 6
+146	17884 25 50 50 1.000497683106 1.000497683106 1 0 0 0 0
+147	17909 25 50 50 1.000497683106 1.000497683106 1 0 0 0 0
+148	17934 25 50 50 1.000497683106 1.000497683106 1 0 0 0 0
+149	17959 25 50 50 1.000497683106 1.000497683106 1 0 0 0 0
+159	17984 39 88 88 1.000539683106 1.000539683106 1 23.626095777513 23.626095777513 23.626095777513 558.19240168822
+164	18023 640 0 385 0 1.001617805275 26 0 0 0 0
+165	18663 434 0 384 0 1.001617805275 18 0 1 8 8
+166	19097 25 48 48 1.000497471648 1.000497471648 1 0 0 0 0
+167	19122 25 48 48 1.000497471648 1.000497471648 1 0 0 0 0
+168	19147 25 48 48 1.000497471648 1.000497471648 1 0 0 0 0
+169	19172 25 48 48 1.000497471648 1.000497471648 1 0 0 0 0
+179	19197 39 80 80 1.000539471648 1.000539471648 1 25.745187090979 25.745187090979 25.745187090979 662.81465834953
+184	19236 744 0 377 0 1.001617776372 30 0 5 36 128
+185	19980 434 0 376 0 1.001617776372 18 0 2 10 14
+186	20414 25 51 51 1.000497734691 1.000497734691 1 0 0 0 0
+187	20439 25 51 51 1.000497734691 1.000497734691 1 0 0 0 0
+188	20464 25 51 51 1.000497734691 1.000497734691 1 0 0 0 0
+189	20489 25 51 51 1.000497734691 1.000497734691 1 0 0 0 0
+199	20514 38 92 92 1.000539734691 1.000539734691 1 23.17907626992 23.17907626992 23.17907626992 537.26957672675
+204	20552 634 0 381 0 1.001617783569 26 0 0 0 0
+205	21186 430 0 380 0 1.001617783569 18 0 1 8 8
+206	21616 25 44 44 1.000497269669 1.000497269669 1 0 0 0 0
+207	21641 25 44 44 1.000497269669 1.000497269669 1 0 0 0 0
+208	21666 25 44 44 1.000497269669 1.000497269669 1 0 0 0 0
+209	21691 25 44 44 1.000497269669 1.000497269669 1 0 0 0 0
+219	21716 39 64 64 1.000539269669 1.000539269669 1 28.406684389101 28.406684389101 28.406684389101 806.93971798199
+224	21755 744 0 389 0 1.001617954894 30 0 5 36 128
+225	22499 434 0 388 0 1.001617954894 18 0 2 10 14
+226	22933 25 46 46 1.000497377394 1.000497377394 1 0 0 0 0
+227	22958 25 46 46 1.000497377394 1.000497377394 1 0 0 0 0
+228	22983 25 46 46 1.000497377394 1.000497377394 1 0 0 0 0
+229	23008 25 46 46 1.000497377394 1.000497377394 1 0 0 0 0
+239	23033 38 72 72 1.000539377394 1.000539377394 1 26.88676897251 26.88676897251 26.88676897251 722.8983457811
+244	23071 790 0 455 0 1.001899995085 32 0 5 19 83
+245	23861 482 0 455 0 1.001899995085 20 0 2 10 12
+246	24343 25 42 42 1.000497054082 1.000497054082 1 0 0 0 0
+247	24368 25 42 42 1.000497054082 1.000497054082 1 0 0 0 0
+248	24393 25 42 42 1.000497054082 1.000497054082 1 0 0 0 0
+249	24418 25 42 42 1.000497054082 1.000497054082 1 0 0 0 0
+259	24443 39 56 56 1.000539054082 1.000539054082 1 32.596813734201 32.596813734201 32.596813734201 1062.5522656222
